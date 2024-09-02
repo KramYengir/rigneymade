@@ -1,7 +1,10 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import ThemeToggle from "@/components/ThemeToggle";
+import blackLogo from "@/assets/images/rm-logo-black.svg";
+import blueLogo from "@/assets/images/rm-logo-blue.svg";
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +21,16 @@ const Navbar: React.FC = () => {
             {/* Logo or Brand */}
             <div className="flex-shrink-0 flex items-center">
               <Link href="/" className="text-xl font-bold">
-                Brand
+                <Image
+                  src={blackLogo}
+                  alt="rigneymade logo - a handwritten r m"
+                  className="h-12 w-auto dark:hidden"
+                ></Image>
+                <Image
+                  src={blueLogo}
+                  alt="rigneymade logo - a handwritten r m"
+                  className="h-12 w-auto hidden dark:block"
+                ></Image>
               </Link>
             </div>
             {/* Desktop Menu Links */}
