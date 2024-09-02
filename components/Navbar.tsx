@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
+import ThemeToggle from "@/components/ThemeToggle";
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,13 +11,13 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className="bg-white/80 border-b border-gray-200  w-full z-10">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <nav className="bg-white/80 dark:bg-neutral-900/20 backdrop-blur-sm w-full z-10">
+      <div className="rm-container">
         <div className="flex justify-between h-16">
           <div className="flex-1 flex justify-between">
             {/* Logo or Brand */}
             <div className="flex-shrink-0 flex items-center">
-              <Link href="/" className="text-xl font-bold text-gray-900">
+              <Link href="/" className="text-xl font-bold">
                 Brand
               </Link>
             </div>
@@ -24,28 +25,29 @@ const Navbar: React.FC = () => {
             <div className="hidden sm:flex sm:space-x-8 items-center">
               <Link
                 href="/"
-                className="text-gray-900 hover:text-gray-700 px-3 py-2 rounded-md text-sm font-medium"
+                className="hover:text-gray-700 px-3 py-2 rounded-md text-sm font-medium"
               >
                 Home
               </Link>
               <Link
                 href="/about"
-                className="text-gray-900 hover:text-gray-700 px-3 py-2 rounded-md text-sm font-medium"
+                className="hover:text-gray-700 px-3 py-2 rounded-md text-sm font-medium"
               >
                 About
               </Link>
               <Link
                 href="/services"
-                className="text-gray-900 hover:text-gray-700 px-3 py-2 rounded-md text-sm font-medium"
+                className="hover:text-gray-700 px-3 py-2 rounded-md text-sm font-medium"
               >
                 Services
               </Link>
               <Link
                 href="/contact"
-                className="text-gray-900 hover:text-gray-700 px-3 py-2 rounded-md text-sm font-medium"
+                className="hover:text-gray-700 px-3 py-2 rounded-md text-sm font-medium"
               >
                 Contact
               </Link>
+              <ThemeToggle />
             </div>
           </div>
 
@@ -80,31 +82,32 @@ const Navbar: React.FC = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="sm:hidden">
-          <div className="px-2 pt-2 pb-3 space-y-1">
+          <div className="grid justify-start px-6 pt-2 pb-3 space-y-2">
             <Link
               href="/"
-              className="block text-gray-900 hover:bg-gray-100 hover:text-gray-700 px-3 py-2 rounded-md text-base font-medium"
+              className="block py-2 rounded-md text-base font-medium"
             >
               Home
             </Link>
             <Link
               href="/about"
-              className="block text-gray-900 hover:bg-gray-100 hover:text-gray-700 px-3 py-2 rounded-md text-base font-medium"
+              className="block py-2 rounded-md text-base font-medium"
             >
               About
             </Link>
             <Link
               href="/services"
-              className="block text-gray-900 hover:bg-gray-100 hover:text-gray-700 px-3 py-2 rounded-md text-base font-medium"
+              className="block py-2 rounded-md text-base font-medium"
             >
               Services
             </Link>
             <Link
               href="/contact"
-              className="block text-gray-900 hover:bg-gray-100 hover:text-gray-700 px-3 py-2 rounded-md text-base font-medium"
+              className="block py-2 rounded-md text-base font-medium"
             >
               Contact
             </Link>
+            <ThemeToggle />
           </div>
         </div>
       )}
