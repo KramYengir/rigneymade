@@ -30,12 +30,6 @@ export default function RootLayout({
         <Provider>
           <Navbar />
           <main>{children}</main>
-          {/*
-              ToDo: Implement Dark Mode
-              ToDo: Seperate BG Images into CLient Component
-              ToDo: Make dark version of BG Images
-              ToDo: Add a footer component
-          */}
           <BackgroundImage />
         </Provider>
       </body>
