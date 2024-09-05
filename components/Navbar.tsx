@@ -47,7 +47,7 @@ const Navbar: React.FC = () => {
       : "hover:text-gray-700 dark:hover:text-rm-blue-200";
 
   return (
-    <nav className="bg-white/80 dark:bg-neutral-900/20 backdrop-blur-sm w-full z-10">
+    <nav className="fixed bg-white/80 dark:bg-neutral-900/20 backdrop-blur-sm w-full z-10">
       <div className="rm-container">
         <div className="flex justify-between py-4">
           <div className="flex-1 flex justify-between">
