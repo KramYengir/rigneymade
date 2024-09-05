@@ -1,21 +1,25 @@
 import Hero from "@/components/Hero";
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
+import arrowImg from "@/assets/images/rm-arrow-down.webp";
+import arrowDarkImg from "@/assets/images/rm-arrow-down-dark.webp";
+import ProcessSection from "@/components/ProcessSection";
 
 const HomePage = () => {
   return (
-    <div className="rm-container">
+    <>
       <Hero />
 
       {/* what we do section */}
-      <section>
-        <h2 className="uppercase text-3xl sm:text-4xl font-bold tracking-wider text-center text-rm-blue-700 dark:text-rm-blue-600">
+      <section className="rm-container">
+        <h2 className="uppercase text-3xl sm:text-4xl font-bold tracking-wider text-center text-rm-blue-700 dark:text-rm-blue-600 py-12">
           What we do
         </h2>
         <div className="grid md:flex gap-y-16 justify-evenly my-24">
           <article className="grid justify-items-center text-center text-balance gap-4 max-w-xs sm:max-w-sm">
-            <h3 className="uppercase text-xl sm:text-2xl font-medium">
-              <span className="text-rm-blue-700 dark:text-rm-blue-600">
+            <h3 className="uppercase text-xl sm:text-2xl">
+              <span className="font-medium text-rm-blue-700 dark:text-rm-blue-600">
                 Website
               </span>{" "}
               Design
@@ -30,9 +34,9 @@ const HomePage = () => {
           </article>
           <hr className="w-12 mx-auto md:hidden border-t-2 border-rm-blue-700 dark:border-rm-blue-600" />
           <article className="grid justify-items-center text-center text-balance gap-4 max-w-xs sm:max-w-sm">
-            <h3 className="uppercase text-xl sm:text-2xl font-medium">
+            <h3 className="uppercase text-xl sm:text-2xl ">
               {" "}
-              <span className="text-rm-blue-700 dark:text-rm-blue-600">
+              <span className="font-medium text-rm-blue-700 dark:text-rm-blue-600">
                 Logo
               </span>{" "}
               Design
@@ -46,8 +50,36 @@ const HomePage = () => {
             </Link>
           </article>
         </div>
+        <div className="relative">
+          <p className="mx-auto font-medium text-center text-balance text-2xl sm:text-4xl max-w-xs sm:max-w-screen-md">
+            Whether it&apos;s a{" "}
+            <span className="font-medium text-rm-blue-700 dark:text-rm-blue-600">
+              Website
+            </span>{" "}
+            or{" "}
+            <span className="font-medium text-rm-blue-700 dark:text-rm-blue-600">
+              Logo
+            </span>
+            , the{" "}
+            <span className="font-medium text-rm-blue-700 dark:text-rm-blue-600">
+              process
+            </span>{" "}
+            is the same
+          </p>
+        </div>
+        <Image
+          src={arrowImg}
+          alt="arrow"
+          className=" aspect-auto h-24 sm:h-36 w-auto dark:hidden mx-auto"
+        />
+        <Image
+          src={arrowDarkImg}
+          alt="arrow"
+          className=" aspect-auto h-24 sm:h-36 w-auto hidden dark:block mx-auto"
+        />
       </section>
-    </div>
+      <ProcessSection />
+    </>
   );
 };
 
