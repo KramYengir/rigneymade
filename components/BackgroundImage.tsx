@@ -11,7 +11,7 @@ const BackgroundImage = () => {
   return (
     <>
       {/* Light Mode Images */}
-      <div className="block dark:hidden">
+      <div className="fixed inset-0 -z-10 block dark:hidden">
         <Image
           src={desktopBG}
           alt="faded background image of various web development graphics"
@@ -25,7 +25,7 @@ const BackgroundImage = () => {
       </div>
 
       {/* Dark Mode Images */}
-      <div className="hidden dark:block">
+      <div className="fixed inset-0 -z-10 hidden dark:block">
         <Image
           src={desktopDarkBG}
           alt="faded background image of various web development graphics"
