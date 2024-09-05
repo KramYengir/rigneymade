@@ -6,7 +6,7 @@ import heroImgDark from "@/assets/images/hero-img-dark.webp";
 
 const Hero = () => {
   return (
-    <section className="flex sm:flex-row flex-wrap items-center justify-center min-h-[90vh] py-16 sm:py-24 px-4 md:px-0">
+    <section className="rm-container flex sm:flex-row flex-wrap items-center justify-evenly min-h-[95vh] py-24">
       {/* heading & call to action */}
       <div className="grid gap-8 max-w-prose text-balance">
         <h1 className="text-4xl sm:text-6xl font-medium">
