@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${ubuntu.className} relative h-[100vh] text-neutral-900 dark:text-neutral-100 tracking-wide`}
+        className={`${ubuntu.className} relative h-full text-neutral-700 dark:text-neutral-100 tracking-wide pb-24`}
       >
         <Provider>
           <Navbar />
