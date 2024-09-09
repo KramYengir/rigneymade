@@ -6,10 +6,10 @@ import heroImgDark from "@/assets/images/hero-img-dark.webp";
 
 const Hero = () => {
   return (
-    <section className="rm-container flex sm:flex-row flex-wrap items-center justify-evenly min-h-[95vh] py-24">
+    <section className="rm-container grid md:grid-cols-2 gap-8 items-center justify-evenly min-h-[95vh] py-24">
       {/* heading & call to action */}
       <div className="grid gap-8 max-w-prose text-balance">
-        <h1 className="text-4xl sm:text-6xl font-medium">
+        <h1 className="text-4xl lg:text-6xl font-medium">
           <span className="text-rm-blue-600 dark:text-rm-blue-500">
             Small Business
           </span>{" "}
@@ -21,7 +21,7 @@ const Hero = () => {
           or
           <span className="text-rm-blue-600 dark:text-rm-blue-500"> Logo</span>?
         </h1>
-        <p className="sm:text-xl max-w-lg">
+        <p className="sm:text-lg max-w-lg">
           From design to development, we build everything from the ground up.
           Whether it's a full website or a smart logo, We&apos;ve got you
           covered!
@@ -37,7 +37,7 @@ const Hero = () => {
       </div>
 
       {/* image */}
-      <div className=" flex-1">
+      <div className="flex-1 mt-auto md:mt-0">
         <Image
           src={heroImgLight}
           alt="Hero Image"
