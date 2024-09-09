@@ -15,7 +15,7 @@ const ProcessCard = ({
   number,
 }: ProcessCardProps) => {
   return (
-    <div className="flex flex-col gap-8 text-center max-w-xs py-12 shadow-md rounded-2xl bg-white/90 dark:bg-neutral-900/80 ">
+    <div className="flex flex-col gap-8 text-center max-w-xs py-12 shadow-lg rounded-2xl border bg-white dark:bg-neutral-900/80 ">
       <Image
         src={icon}
         alt={title}
