@@ -15,7 +15,7 @@ const ProcessCard = ({
   number,
 }: ProcessCardProps) => {
   return (
-    <div className="flex flex-col gap-8 text-center max-w-xs py-12 shadow-md rounded-2xl bg-white/80 dark:bg-neutral-900/40 ">
+    <div className="flex flex-col gap-8 text-center max-w-xs py-12 shadow-md rounded-2xl bg-white/90 dark:bg-neutral-900/80 ">
       <Image
         src={icon}
         alt={title}
@@ -23,7 +23,7 @@ const ProcessCard = ({
         aria-hidden
       />
       <div className="relative grid items-center justify-center">
-        <h4 className="text-4xl text-rm-blue-700 dark:text-rm-blue-400 font-bold">
+        <h4 className="text-4xl text-rm-primary-700 dark:text-rm-primary-400 font-bold">
           {title}
         </h4>
         <p className="absolute left-[50%] -translate-x-[50%] grid items-center text-9xl font-bold text-pink-400/20 dark:text-pink-300/20">
