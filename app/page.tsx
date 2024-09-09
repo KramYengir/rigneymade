@@ -21,7 +21,7 @@ const HomePage = () => {
         <div className="grid md:flex gap-y-16 justify-evenly sm:my-24">
           <article className="grid justify-items-center text-center text-balance gap-4 max-w-xs sm:max-w-sm">
             <h3 className="uppercase text-xl sm:text-2xl">
-              <span className="font-medium text-rm-blue-700 dark:text-rm-blue-600">
+              <span className="font-medium text-rm-primary-700 dark:text-rm-primary-600">
                 Website
               </span>{" "}
               Design
@@ -34,11 +34,11 @@ const HomePage = () => {
               More Info
             </Link>
           </article>
-          <hr className="w-12 mx-auto md:hidden border-t-2 border-rm-blue-700 dark:border-rm-blue-600" />
+          <hr className="w-12 mx-auto md:hidden border-t-2 border-rm-primary-700 dark:border-rm-primary-600" />
           <article className="grid justify-items-center text-center text-balance gap-4 max-w-xs sm:max-w-sm">
             <h3 className="uppercase text-xl sm:text-2xl ">
               {" "}
-              <span className="font-medium text-rm-blue-700 dark:text-rm-blue-600">
+              <span className="font-medium text-rm-primary-700 dark:text-rm-primary-600">
                 Logo
               </span>{" "}
               Design
@@ -55,15 +55,15 @@ const HomePage = () => {
         <div className="relative mt-24">
           <p className="mx-auto font-medium text-center text-balance text-2xl sm:text-4xl max-w-xs sm:max-w-screen-md">
             Whether it&apos;s a{" "}
-            <span className="font-medium text-rm-blue-700 dark:text-rm-blue-600">
+            <span className="font-medium text-rm-primary-700 dark:text-rm-primary-600">
               Website
             </span>{" "}
             or{" "}
-            <span className="font-medium text-rm-blue-700 dark:text-rm-blue-600">
+            <span className="font-medium text-rm-primary-700 dark:text-rm-primary-600">
               Logo
             </span>
             , the{" "}
-            <span className="font-medium text-rm-blue-700 dark:text-rm-blue-600">
+            <span className="font-medium text-rm-primary-700 dark:text-rm-primary-600">
               process
             </span>{" "}
             is the same

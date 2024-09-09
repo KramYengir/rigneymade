@@ -7,7 +7,7 @@ import { Arimo } from "next/font/google";
 import { usePathname } from "next/navigation";
 import ThemeToggle from "@/components/ThemeToggle";
 import blackLogo from "@/assets/images/rm-logo-black.svg";
-import blueLogo from "@/assets/images/rm-logo-blue.svg";
+import primaryLogo from "@/assets/images/rm-logo-blue.svg";
 
 const arimo = Arimo({
   weight: ["600", "400", "500", "700"],
@@ -43,13 +43,13 @@ const Navbar: React.FC = () => {
 
   const linkClasses = (path: string) =>
     pathname === path
-      ? "text-rm-blue-700 dark:text-rm-blue-200 font-bold"
-      : "hover:text-gray-700 dark:hover:text-rm-blue-200";
+      ? "text-rm-primary-700 dark:text-rm-primary-200 font-bold"
+      : "hover:text-gray-700 dark:hover:text-rm-primary-200";
 
   return (
     <nav className="fixed bg-white/80 dark:bg-neutral-900/20 backdrop-blur-sm w-full z-10">
       <div className="rm-container">
-        <div className="flex items-center justify-between py-2">
+        <div className="flex items-center justify-between py-6">
           <div className="flex-1 flex justify-between">
             {/* Logo or Brand */}
             <div>
@@ -60,7 +60,7 @@ const Navbar: React.FC = () => {
                   className="h-12 w-auto dark:hidden"
                 />
                 <Image
-                  src={blueLogo}
+                  src={primaryLogo}
                   alt="rigneymade logo - a handwritten r m"
                   className="h-12 w-auto hidden dark:block"
                 />
@@ -71,7 +71,7 @@ const Navbar: React.FC = () => {
                     RigneyMade
                   </p>
                   <p
-                    className={`${arimo.className} uppercase tracking-wider text-xs text-rm-blue-700 dark:text-rm-blue-300`}
+                    className={`${arimo.className} uppercase tracking-wider text-xs text-rm-primary-700 dark:text-rm-primary-300`}
                   >
                     Digital Designs
                   </p>
@@ -120,7 +120,7 @@ const Navbar: React.FC = () => {
           <div className="-mr-2 flex items-center md:hidden">
             <button
               onClick={toggleMenu}
-              className="inline-flex items-center justify-center p-2 rounded-md hover:text-rm-blue-700 dark:text-rm-blue-50 dark:hover:text-rm-blue-200 focus:outline-none"
+              className="inline-flex items-center justify-center p-2 rounded-md hover:text-rm-primary-700 dark:text-rm-primary-50 dark:hover:text-rm-primary-200 focus:outline-none"
               aria-label="Toggle menu"
             >
               <svg

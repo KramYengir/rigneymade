@@ -10,16 +10,20 @@ const Hero = () => {
       {/* heading & call to action */}
       <div className="grid gap-8 max-w-prose text-balance">
         <h1 className="text-4xl lg:text-6xl font-medium">
-          <span className="text-rm-blue-600 dark:text-rm-blue-500">
+          <span className="text-rm-primary-600 dark:text-rm-primary-500">
             Small Business
           </span>{" "}
           in need of a
-          <span className="text-rm-blue-600 dark:text-rm-blue-500">
+          <span className="text-rm-primary-600 dark:text-rm-primary-500">
             {" "}
             Website
           </span>{" "}
           or
-          <span className="text-rm-blue-600 dark:text-rm-blue-500"> Logo</span>?
+          <span className="text-rm-primary-600 dark:text-rm-primary-500">
+            {" "}
+            Logo
+          </span>
+          ?
         </h1>
         <p className="sm:text-lg max-w-lg">
           From design to development, we build everything from the ground up.
