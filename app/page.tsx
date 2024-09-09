@@ -1,10 +1,11 @@
-import Hero from "@/components/Hero";
+import Hero from "@/components/Home/Hero";
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import arrowImg from "@/assets/images/rm-arrow-down.webp";
 import arrowDarkImg from "@/assets/images/rm-arrow-down-dark.webp";
-import ProcessSection from "@/components/ProcessSection";
+import ProcessSection from "@/components/Home/ProcessSection";
+import PortfolioSection from "@/components/Home/PortfolioSection";
 
 const HomePage = () => {
   return (
@@ -13,10 +14,11 @@ const HomePage = () => {
 
       {/* what we do section */}
       <section className="rm-container">
-        <h2 className="uppercase text-3xl sm:text-4xl font-bold tracking-wider text-center text-rm-blue-700 dark:text-rm-blue-600 py-12">
-          What we do
-        </h2>
-        <div className="grid md:flex gap-y-16 justify-evenly my-24">
+        <div className="grid gap-2 justify-center text-center py-24">
+          <h2 className="h2">What we do</h2>
+          <p className="sub-heading">how we can help</p>
+        </div>
+        <div className="grid md:flex gap-y-16 justify-evenly sm:my-24">
           <article className="grid justify-items-center text-center text-balance gap-4 max-w-xs sm:max-w-sm">
             <h3 className="uppercase text-xl sm:text-2xl">
               <span className="font-medium text-rm-blue-700 dark:text-rm-blue-600">
@@ -50,7 +52,7 @@ const HomePage = () => {
             </Link>
           </article>
         </div>
-        <div className="relative">
+        <div className="relative mt-24">
           <p className="mx-auto font-medium text-center text-balance text-2xl sm:text-4xl max-w-xs sm:max-w-screen-md">
             Whether it&apos;s a{" "}
             <span className="font-medium text-rm-blue-700 dark:text-rm-blue-600">
@@ -79,6 +81,7 @@ const HomePage = () => {
         />
       </section>
       <ProcessSection />
+      <PortfolioSection />
     </>
   );
 };
