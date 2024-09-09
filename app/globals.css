@@ -7,17 +7,17 @@
 }
 
 .btn-primary {
-  @apply inline-flex items-center justify-center rounded-md border border-transparent bg-rm-blue-700 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-rm-blue-900 dark:hover:bg-rm-blue-600 focus:outline-none focus:ring-2 focus:ring-rm-blue-500 focus:ring-offset-2;
+  @apply inline-flex items-center justify-center rounded-md border border-transparent bg-rm-primary-700 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-rm-primary-900 dark:hover:bg-rm-primary-600 focus:outline-none focus:ring-2 focus:ring-rm-primary-500 focus:ring-offset-2;
 }
 
 .btn-secondary {
-  @apply inline-flex items-center justify-center rounded-md border border-rm-blue-700 dark:border-rm-blue-400 bg-transparent px-4 py-2 text-sm font-medium text-rm-blue-700 dark:hover:text-rm-blue-900 dark:text-rm-blue-400 shadow-sm hover:bg-rm-blue-200 focus:outline-none focus:ring-2 focus:ring-rm-blue-500 focus:ring-offset-2;
+  @apply inline-flex items-center justify-center rounded-md border border-rm-primary-700 dark:border-rm-primary-400 bg-transparent px-4 py-2 text-sm font-medium text-rm-primary-700 dark:hover:text-rm-primary-900 dark:text-rm-primary-400 shadow-sm hover:bg-rm-primary-200 focus:outline-none focus:ring-2 focus:ring-rm-primary-500 focus:ring-offset-2;
 }
 
 .h2 {
-  @apply uppercase text-3xl sm:text-5xl font-bold tracking-wider text-center text-rm-blue-700 dark:text-rm-blue-600;
+  @apply uppercase text-3xl sm:text-5xl font-bold tracking-wider text-center text-rm-primary-700 dark:text-rm-primary-600;
 }
 
 .sub-heading {
-  @apply tracking-widest uppercase font-bold text-pink-400/70 dark:text-pink-100/70;
+  @apply tracking-wider uppercase text-sm font-bold text-rm-primary-700/60 dark:text-rm-primary-100/80;
 }
