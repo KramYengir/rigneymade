@@ -79,7 +79,7 @@ const Navbar: React.FC = () => {
               </Link>
             </div>
             {/* Desktop Menu Links */}
-            <div className="hidden sm:flex sm:space-x-8 items-center">
+            <div className="hidden md:flex sm:space-x-8 items-center">
               <Link
                 href="/"
                 className={`px-3 py-2 rounded-md text-sm font-medium ${linkClasses(
@@ -117,7 +117,7 @@ const Navbar: React.FC = () => {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="-mr-2 flex items-center sm:hidden">
+          <div className="-mr-2 flex items-center md:hidden">
             <button
               onClick={toggleMenu}
               className="inline-flex items-center justify-center p-2 rounded-md hover:text-rm-blue-700 dark:text-rm-blue-50 dark:hover:text-rm-blue-200 focus:outline-none"
@@ -146,7 +146,7 @@ const Navbar: React.FC = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="sm:hidden">
+        <div className="md:hidden">
           <div className="grid justify-start px-6 pt-2 pb-3 space-y-2">
             <Link
               href="/"
