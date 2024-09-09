@@ -19,5 +19,5 @@
 }
 
 .sub-heading {
-  @apply tracking-widest uppercase font-bold text-rm-blue-700/70 dark:text-rm-blue-100/70;
+  @apply tracking-widest uppercase font-bold text-pink-400/70 dark:text-pink-100/70;
 }
