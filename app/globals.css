@@ -13,3 +13,11 @@
 .btn-secondary {
   @apply inline-flex items-center justify-center rounded-md border border-rm-blue-700 dark:border-rm-blue-400 bg-transparent px-4 py-2 text-sm font-medium text-rm-blue-700 dark:hover:text-rm-blue-900 dark:text-rm-blue-400 shadow-sm hover:bg-rm-blue-200 focus:outline-none focus:ring-2 focus:ring-rm-blue-500 focus:ring-offset-2;
 }
+
+.h2 {
+  @apply uppercase text-3xl sm:text-5xl font-bold tracking-wider text-center text-rm-blue-700 dark:text-rm-blue-600;
+}
+
+.sub-heading {
+  @apply tracking-widest uppercase font-bold text-rm-blue-700/70 dark:text-rm-blue-100/70;
+}
