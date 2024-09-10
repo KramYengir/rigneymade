@@ -18,7 +18,7 @@ const HomePage = () => {
           <h2 className="h2">What we do</h2>
           <p className="sub-heading">- how we can help -</p>
         </div>
-        <div className="grid md:flex gap-y-16 justify-evenly sm:my-24">
+        <div className="grid md:flex gap-y-16 justify-evenly sm:my-16">
           <article className="grid justify-items-center text-center text-balance gap-4 max-w-xs sm:max-w-sm">
             <h3 className="uppercase text-xl sm:text-2xl">
               <span className="font-medium text-rm-primary-700 dark:text-rm-primary-600">
@@ -52,7 +52,7 @@ const HomePage = () => {
             </Link>
           </article>
         </div>
-        <div className="relative mt-24">
+        <div className="relative mt-32">
           <p className="mx-auto font-medium text-center text-balance text-2xl sm:text-4xl max-w-xs sm:max-w-screen-md">
             Whether it&apos;s a{" "}
             <span className="font-medium text-rm-primary-700 dark:text-rm-primary-600">
