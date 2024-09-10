@@ -39,7 +39,7 @@ const portfolioItems = [
 
 const PortfolioSection = () => {
   return (
-    <section>
+    <section className="py-24">
       <div className="rm-container">
         <div className="grid gap-2 justify-center text-center py-24">
           <h2 className="h2">our portfolio</h2>

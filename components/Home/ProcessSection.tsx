@@ -7,7 +7,7 @@ import ProcessCard from "@/components/Home/ProcessCard";
 const ProcessSection = () => {
   return (
     <section className="py-12">
-      <div className="rm-container flex flex-wrap justify-evenly  gap-y-16 py-12">
+      <div className="rm-container flex flex-wrap justify-evenly  gap-y-8 py-12">
         <ProcessCard
           icon={consultIcon}
           title="Consult"

@@ -20,9 +20,9 @@ const PortfolioCard = ({
   link,
 }: PortfolioCardProps) => {
   return (
-    <div className="grid gap-2 min-h-[460px] max-w-xs p-6 shadow-xl shadow-rm-primary-950/40 rounded-lg border-b-8 border-rm-primary-700 dark:bg-neutral-50/20 ">
+    <div className="grid gap-2 min-h-[460px] max-w-xs p-6  shadow-lg shadow-rm-primary-950/40 rounded-lg border-b-8 border-rm-primary-700 dark:bg-neutral-50/20 ">
       <Image src={image} alt={imageAlt} className="h-auto w-auto mx-auto" />
-      <div className="flex flex-col justify-evenly gap-4 ">
+      <div className="flex flex-col justify-between gap-4 ">
         <div className="grid justify-start">
           <h3 className="text-xl text-balance text-rm-primary-900 dark:text-rm-primary-100 font-bold">
             {title}
