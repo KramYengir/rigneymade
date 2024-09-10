@@ -10,7 +10,7 @@ const AboutSection = () => {
           <h2 className="h2">Who we are</h2>
           <p className="sub-heading">- our story -</p>
         </div>
-        <div className="grid sm:grid-cols-2 items-center gap-y-12">
+        <div className="grid md:grid-cols-2 items-center justify-center gap-y-12">
           <div className="relative grid mx-auto rounded-full overflow-hidden">
             <Image
               src={profileImg}
@@ -18,7 +18,7 @@ const AboutSection = () => {
               className=" h-80 w-auto"
             />
           </div>
-          <p className=" max-w-prose">
+          <p className="max-w-96 text-center md:text-left text-balance px-2">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed odit
             quae repudiandae dolor, neque iusto numquam, voluptatibus odio
             impedit labore illum? Fugit animi officia inventore delectus sit
