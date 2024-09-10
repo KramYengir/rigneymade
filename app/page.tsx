@@ -6,6 +6,7 @@ import arrowImg from "@/assets/images/rm-arrow-down.webp";
 import arrowDarkImg from "@/assets/images/rm-arrow-down-dark.webp";
 import ProcessSection from "@/components/Home/ProcessSection";
 import PortfolioSection from "@/components/Home/PortfolioSection";
+import AboutSection from "@/components/Home/AboutSection";
 
 const HomePage = () => {
   return (
@@ -82,6 +83,7 @@ const HomePage = () => {
       </section>
       <ProcessSection />
       <PortfolioSection />
+      <AboutSection />
     </>
   );
 };
