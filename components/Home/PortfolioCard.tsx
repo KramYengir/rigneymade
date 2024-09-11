@@ -24,7 +24,7 @@ const PortfolioCard = ({
       <Image src={image} alt={imageAlt} className="h-auto w-auto mx-auto" />
       <div className="flex flex-col justify-between gap-4 ">
         <div className="grid justify-start">
-          <h3 className="text-xl text-balance text-rm-primary-900 dark:text-rm-primary-100 font-bold">
+          <h3 className="text-xl text-balance text-rm-primary-900 dark:text-rm-primary-50 font-bold">
             {title}
           </h3>
           <p className="text-sm font-light">{productType}</p>

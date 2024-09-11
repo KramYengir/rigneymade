@@ -29,10 +29,10 @@ const portfolioItems = [
     image: mockupBGCM,
     imageAlt:
       "two business card mockups, one black and one white, showing the logo for brian grimes cabinet making",
-    title: "Brian Grimes Cabinet Making",
+    title: "BGCM",
     productType: "Logo",
     description:
-      "A meaningful logo for a fast-growing cabinet making company in Ireland",
+      "A meaningful logo for a fast-growing cabinet making company in Ireland - Brian Grimes Cabinet Making",
     link: "https://www.instagram.com/bgcabinetmaking/?hl=en-gb",
   },
 ];
