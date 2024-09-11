@@ -6,6 +6,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Provider from "@/components/utils/Provider";
 import BackgroundImage from "@/components/BackgroundImage";
+import Footer from "@/components/Footer";
 
 const ubuntu = Ubuntu({
   weight: ["300", "400", "500", "700"],
@@ -30,12 +31,13 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${notoSans.className} relative h-full text-neutral-700 dark:text-neutral-100 tracking-wide pb-24`}
+        className={`${notoSans.className} relative h-full text-neutral-700 dark:text-neutral-100 tracking-wide`}
       >
         <Provider>
           <Navbar />
           <main>{children}</main>
           <BackgroundImage />
+          <Footer />
         </Provider>
       </body>
     </html>
