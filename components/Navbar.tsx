@@ -44,7 +44,7 @@ const Navbar: React.FC = () => {
   const linkClasses = (path: string) =>
     pathname === path
       ? "text-rm-primary-700 dark:text-rm-primary-200 font-bold"
-      : "hover:text-gray-700 dark:hover:text-rm-primary-200";
+      : "hover:scale-105 hover:text-rm-primary-800/70 dark:hover:text-rm-primary-200";
 
   return (
     <nav className="fixed bg-white/80 dark:bg-neutral-900/20 backdrop-blur-sm w-full z-10">
@@ -117,7 +117,7 @@ const Navbar: React.FC = () => {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="-mr-2 flex items-center md:hidden">
+          <div className=" flex items-center md:hidden">
             <button
               onClick={toggleMenu}
               className="inline-flex items-center justify-center p-2 rounded-md hover:text-rm-primary-700 dark:text-rm-primary-50 dark:hover:text-rm-primary-200 focus:outline-none"

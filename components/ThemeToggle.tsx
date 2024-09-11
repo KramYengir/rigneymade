@@ -1,8 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
-import { FaRegMoon } from "react-icons/fa";
-import { GoSun } from "react-icons/go";
+import { BsMoonStars, BsSunFill } from "react-icons/bs";
 
 const ThemeToggle = () => {
   const { theme, setTheme } = useTheme();
@@ -21,8 +20,9 @@ const ThemeToggle = () => {
     <button
       aria-label="Set Light Mode"
       onClick={() => setTheme(theme === "light" ? "dark" : "light")}
+      className="py-2 hover:scale-105 hover:text-rm-primary-700 dark:hover:text-rm-primary-400 "
     >
-      {theme === "light" ? <FaRegMoon /> : <GoSun />}
+      {theme === "light" ? <BsMoonStars /> : <BsSunFill />}
     </button>
   );
 };
