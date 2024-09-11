@@ -13,16 +13,16 @@ const Hero = () => {
           aria-label="Small Business in need of a Website or Logo?"
           className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold"
         >
-          <span className="text-rm-primary-600 dark:text-rm-primary-500">
+          <span className="text-rm-primary-600 dark:text-rm-primary-500 font-extrabold">
             Small Business
           </span>{" "}
           in need of a
-          <span className="text-rm-primary-600 dark:text-rm-primary-500">
+          <span className="text-rm-primary-600 dark:text-rm-primary-500 font-extrabold">
             {" "}
             Website
           </span>{" "}
           or
-          <span className="text-rm-primary-600 dark:text-rm-primary-500">
+          <span className="text-rm-primary-600 dark:text-rm-primary-500 font-extrabold">
             {" "}
             Logo?
           </span>
