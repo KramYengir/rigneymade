@@ -1,7 +1,14 @@
 import React from "react";
+import AboutUsSection from "@/components/About/AboutUsSection";
+import ToolsSection from "@/components/About/ToolsSection";
 
 const AboutPage = () => {
-  return <div className="rm-container">AboutPage</div>;
+  return (
+    <div>
+      <AboutUsSection />
+      <ToolsSection />
+    </div>
+  );
 };
 
 export default AboutPage;
