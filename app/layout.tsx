@@ -29,7 +29,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" className="h-full" suppressHydrationWarning>
       <body
         className={`${notoSans.className} relative h-full text-neutral-700 dark:text-neutral-100 tracking-wide`}
       >
