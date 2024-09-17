@@ -1,7 +1,12 @@
 import React from "react";
+import ServicesSection from "@/components/Services/ServicesSection";
 
 const ServicesPage = () => {
-  return <div className="rm-container">ServicesPage</div>;
+  return (
+    <div>
+      <ServicesSection />
+    </div>
+  );
 };
 
 export default ServicesPage;
