@@ -21,10 +21,10 @@ const ToolsSection = () => {
           <Image
             src={techCloudImg}
             alt="profile picture of Mark Rigney"
-            className=" max-h-80 w-auto"
+            className="h-56 md:h-80 xl:h-[400px] w-auto"
           />
         </div>
-        <ul className="grid gap-4">
+        <ul className="grid gap-4 gap-y-6">
           <li className="grid gap-2">
             <h3 className="uppercase text-2xl font-light px-2 sm:px-0">
               <span className="font-bold">Web</span> Design
