@@ -20,7 +20,7 @@ const ToolsSection = () => {
         <div className="flex flex-col mx-auto ">
           <Image
             src={techCloudImg}
-            alt="profile picture of Mark Rigney"
+            alt="various development software logos"
             className="h-56 md:h-80 xl:h-[400px] w-auto"
           />
         </div>
