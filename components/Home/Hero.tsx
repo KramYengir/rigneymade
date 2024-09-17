@@ -3,6 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 import heroImgLight from "@/assets/images/hero-img-light.webp";
 import heroImgDark from "@/assets/images/hero-img-dark.webp";
+import { CldImage } from "next-cloudinary";
+import CloudImg from "../CloudImg";
 
 const Hero = () => {
   return (
@@ -44,7 +46,7 @@ const Hero = () => {
 
       {/* image */}
       <div className="flex-1">
-        <Image
+        {/* <Image
           src={heroImgLight}
           alt="Hero Image"
           className="z-10 dark:hidden"
@@ -52,6 +54,17 @@ const Hero = () => {
         <Image
           src={heroImgDark}
           alt="Hero Image"
+          className="z-10 hidden dark:block"
+        /> */}
+        <CloudImg
+          src={"/mockups-v2_kcgccx.png"}
+          alt="a mockup of a laptop, phone and business card"
+          className="z-10 dark:hidden"
+        />
+
+        <CloudImg
+          src={"/mockups-v2-white_mch0i9.png"}
+          alt="a mockup of a laptop, phone and business card"
           className="z-10 hidden dark:block"
         />
       </div>
