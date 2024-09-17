@@ -57,13 +57,13 @@ const Hero = () => {
           className="z-10 hidden dark:block"
         /> */}
         <CloudImg
-          src={"/mockups-v2_kcgccx.png"}
+          src={"/mockups-v3-dark_tfieuq.webp"}
           alt="a mockup of a laptop, phone and business card"
           className="z-10 dark:hidden"
         />
 
         <CloudImg
-          src={"/mockups-v2-white_mch0i9.png"}
+          src={"/mockups-v3_sqdktn.webp"}
           alt="a mockup of a laptop, phone and business card"
           className="z-10 hidden dark:block"
         />
