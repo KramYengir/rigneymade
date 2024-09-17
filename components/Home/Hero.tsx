@@ -57,15 +57,15 @@ const Hero = () => {
           className="z-10 hidden dark:block"
         /> */}
         <CloudImg
-          src={"/mockups-v3-dark_tfieuq.webp"}
+          src={"/hero-img-light_p5lfcr.webp"}
           alt="a mockup of a laptop, phone and business card"
-          className="z-10 dark:hidden"
+          className="z-10 pl-6 sm:pl-0 dark:hidden"
         />
 
         <CloudImg
-          src={"/mockups-v3_sqdktn.webp"}
+          src={"/hero-img-dark_drrnoj.webp"}
           alt="a mockup of a laptop, phone and business card"
-          className="z-10 hidden dark:block"
+          className="z-10 pl-6 sm:pl-0 hidden dark:block"
         />
       </div>
     </section>
