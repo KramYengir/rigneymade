@@ -8,12 +8,12 @@ import CloudImg from "../CloudImg";
 
 const Hero = () => {
   return (
-    <section className="rm-container grid md:grid-cols-2 gap-8 items-center justify-evenly min-h-[90vh] pt-24">
+    <section className="rm-container grid md:grid-cols-2 gap-8 items-center justify-evenly min-h-[95vh] pt-24">
       {/* heading & call to action */}
-      <div className="grid gap-8 mx-auto max-w-prose text-balance">
+      <div className="grid gap-6 mx-auto max-w-prose text-balance">
         <h1
           aria-label="Small Business in need of a Website or Logo?"
-          className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold"
+          className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold"
         >
           <span className="text-rm-primary-600 dark:text-rm-primary-500 font-extrabold">
             Small Business
