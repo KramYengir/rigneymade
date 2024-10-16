@@ -51,8 +51,13 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="mt-24 pb-2 text-center">
-        <small className="mx-auto ">
+      <div className="flex justify-center items-center gap-1 w-full mt-24 pb-2 text-center">
+        <img
+          src="/images/rm-logo-white.svg"
+          alt="rigney made logo"
+          className="h-6"
+        />
+        <small>
           RigneyMade {new Date().getFullYear()} &copy; - All rights reserved
         </small>
       </div>
