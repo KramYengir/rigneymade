@@ -61,8 +61,10 @@ const Navbar: React.FC = () => {
 
   return (
     <nav
-      className={`fixed bg-white/80 dark:bg-neutral-900/20 backdrop-blur-sm w-full z-10 transition-shadow ${
-        isScrolled ? "shadow-md" : ""
+      className={`fixed w-full z-10 transition-all backdrop-blur-sm ${
+        isScrolled
+          ? "bg-white/80 shadow-md dark:bg-neutral-900/80"
+          : "bg-white/80 dark:bg-transparent"
       }`}
     >
       <div className="rm-container">
