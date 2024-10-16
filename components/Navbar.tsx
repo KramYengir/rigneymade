@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Arimo } from "next/font/google";
-
 import { usePathname } from "next/navigation";
 import ThemeToggle from "@/components/ThemeToggle";
 import blackLogo from "@/assets/images/rm-logo-black.svg";
@@ -16,7 +15,8 @@ const arimo = Arimo({
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const pathname = usePathname(); // Get the current path
+  const [isScrolled, setIsScrolled] = useState(false);
+  const pathname = usePathname();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -25,6 +25,20 @@ const Navbar: React.FC = () => {
   const closeMenu = () => {
     setIsOpen(false);
   };
+
+  // Handle shadow effect when scrolling
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 100) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   // Close the menu when the window is resized to a larger screen
   useEffect(() => {
@@ -35,7 +49,6 @@ const Navbar: React.FC = () => {
     };
 
     window.addEventListener("resize", handleResize);
-
     return () => {
       window.removeEventListener("resize", handleResize);
     };
@@ -47,7 +60,11 @@ const Navbar: React.FC = () => {
       : "hover:scale-105 hover:text-rm-primary-800/70 dark:hover:text-rm-primary-200";
 
   return (
-    <nav className="fixed bg-white/80 dark:bg-neutral-900/20 backdrop-blur-sm w-full z-10">
+    <nav
+      className={`fixed bg-white/80 dark:bg-neutral-900/20 backdrop-blur-sm w-full z-10 transition-shadow ${
+        isScrolled ? "shadow-md" : ""
+      }`}
+    >
       <div className="rm-container">
         <div className="flex items-center justify-between py-6">
           <div className="flex-1 flex justify-between">
@@ -117,7 +134,7 @@ const Navbar: React.FC = () => {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className=" flex items-center md:hidden">
+          <div className="flex items-center md:hidden">
             <button
               onClick={toggleMenu}
               className="inline-flex items-center justify-center p-2 rounded-md hover:text-rm-primary-700 dark:text-rm-primary-50 dark:hover:text-rm-primary-200 focus:outline-none"
