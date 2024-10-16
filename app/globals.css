@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .rm-container {
-  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  @apply max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8;
 }
 
 .btn-primary {
@@ -15,9 +15,17 @@
 }
 
 .h2 {
-  @apply uppercase text-3xl sm:text-5xl font-extrabold tracking-wider text-center text-rm-primary-700 dark:text-rm-primary-600;
+  @apply uppercase text-3xl sm:text-5xl font-extrabold tracking-wider text-center;
 }
 
 .sub-heading {
-  @apply tracking-wider uppercase text-sm font-bold text-rm-primary-700/60 dark:text-rm-primary-100/80;
+  @apply tracking-wider uppercase text-sm font-bold;
+}
+
+.h1-bg {
+  @apply pt-40 pb-16 bg-neutral-800/10 dark:bg-neutral-800/40;
+}
+
+.h2-bg {
+  @apply py-12 bg-rm-primary-950/5   dark:bg-neutral-800/60;
 }
