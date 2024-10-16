@@ -20,7 +20,7 @@ const PortfolioCard = ({
   link,
 }: PortfolioCardProps) => {
   return (
-    <div className="grid gap-2 min-h-[460px] max-w-xs p-6  shadow-lg shadow-rm-primary-950/40 rounded-lg border-b-8 border-rm-primary-700 dark:bg-neutral-50/20 ">
+    <div className="grid gap-2 min-h-[460px] max-w-80 py-6 px-6 shadow-lg shadow-rm-primary-950/40 rounded-lg border-b-8 border-rm-primary-700 bg-white/95 dark:bg-inherit dark:bg-gradient-to-b dark:from-neutral-50/20 ">
       <Image src={image} alt={imageAlt} className="h-auto w-auto mx-auto" />
       <div className="flex flex-col justify-evenly gap-2 ">
         <div className="grid justify-start">
