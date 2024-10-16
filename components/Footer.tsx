@@ -10,7 +10,7 @@ const arimo = Arimo({
 
 const Footer = () => {
   return (
-    <footer className=" bg-gradient-to-t from-rm-primary-950 dark:from-rm-50 via-rm-primary-900 via-[60%] dark:to-transparent pt-32 text-white">
+    <footer className=" bg-gradient-to-t from-rm-primary-950 dark:from-rm-50 pt-64 text-white">
       <div className="flex flex-wrap gap-8 gap-y-24 items-start justify-evenly px-12">
         <div className="flex-1 grid sm:flex items-center justify-center">
           <Image
