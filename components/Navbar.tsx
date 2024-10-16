@@ -63,7 +63,7 @@ const Navbar: React.FC = () => {
     <nav
       className={`fixed w-full z-10 transition-all backdrop-blur-sm ${
         isScrolled
-          ? "bg-white/80 shadow-md dark:bg-neutral-900/80"
+          ? "bg-white/80 shadow-md dark:bg-neutral-800/90"
           : "bg-white/80 dark:bg-transparent"
       }`}
     >
@@ -165,7 +165,7 @@ const Navbar: React.FC = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden">
+        <div className="md:hidden dark:bg-neutral-800/90">
           <div className="grid justify-start px-6 pt-2 pb-3 space-y-2">
             <Link
               href="/"
