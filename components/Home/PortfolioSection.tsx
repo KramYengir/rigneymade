@@ -39,27 +39,26 @@ const portfolioItems = [
 
 const PortfolioSection = () => {
   return (
-    <section className="py-32 bg-rm-primary-800/5 dark:bg-inherit dark:bg-gradient-to-b  dark:from-neutral-700/40 dark:to-neutral-700/10">
-      <div className="rm-container">
-        <div className="grid gap-2 justify-center text-center pb-24">
-          <h2 className="h2">our portfolio</h2>
-          <p className="sub-heading">- Some of our work -</p>
-        </div>
-        <ul className="flex flex-wrap gap-8 gap-y-12 items-center justify-evenly">
-          {portfolioItems.map((item, index) => (
-            <li key={index}>
-              <PortfolioCard
-                image={item.image}
-                imageAlt={item.imageAlt}
-                title={item.title}
-                productType={item.productType}
-                description={item.description}
-                link={item.link}
-              />
-            </li>
-          ))}
-        </ul>
+    <section>
+      <div className="grid gap-2 justify-center text-center py-16 h2-bg">
+        <h2 className="h2">our portfolio</h2>
+        <p className="sub-heading">- Some of our work -</p>
       </div>
+
+      <ul className="flex flex-wrap gap-8 gap-y-12 items-center justify-evenly py-32">
+        {portfolioItems.map((item, index) => (
+          <li key={index}>
+            <PortfolioCard
+              image={item.image}
+              imageAlt={item.imageAlt}
+              title={item.title}
+              productType={item.productType}
+              description={item.description}
+              link={item.link}
+            />
+          </li>
+        ))}
+      </ul>
     </section>
   );
 };

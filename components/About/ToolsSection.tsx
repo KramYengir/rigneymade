@@ -4,19 +4,19 @@ import techCloudImg from "@/assets/images/tech_cloud.png";
 
 const ToolsSection = () => {
   return (
-    <section className="rm-container py-24">
-      <div className="grid gap-2 justify-center text-center pt-24 pb-12">
+    <section>
+      <div className="grid gap-2 justify-center text-center h2-bg">
         <h2 className="h2">Our Toolbox</h2>
         <p className="sub-heading">- the nerdy stuff -</p>
+        <p className="text-balance font-light leading-6 px-6 sm:px-0 text-center max-w-prose mx-auto">
+          I&apos;m constantly striving to improve and learn new technologies
+          that enhance my work. While I regularly expand my skill set, my core
+          expertise lies in the following technologies:
+        </p>
       </div>
-      <p className="text-balance font-light leading-6 px-6 sm:px-0 text-center max-w-prose mx-auto">
-        I&apos;m constantly striving to improve and learn new technologies that
-        enhance my work. While I regularly expand my skill set, my core
-        expertise lies in the following technologies:
-      </p>
 
       {/* list of tools */}
-      <div className="grid md:grid-cols-2 items-center justify-center gap-y-12 py-24">
+      <div className="rm-container grid md:grid-cols-2 items-center justify-center gap-y-12 py-32">
         <div className="flex flex-col mx-auto ">
           <Image
             src={techCloudImg}
@@ -27,7 +27,7 @@ const ToolsSection = () => {
         <ul className="grid gap-4 gap-y-6">
           <li className="grid gap-2">
             <h3 className="uppercase text-2xl font-light px-2 sm:px-0">
-              <span className="font-bold">Web</span> Design
+              <span className="font-bold text-rm-primary-700">Web</span> Design
             </h3>
             <p className="font-light text-balance px-2 sm:px-0">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat
@@ -38,7 +38,8 @@ const ToolsSection = () => {
           </li>
           <li className="grid gap-2">
             <h3 className="uppercase text-2xl font-light px-2 sm:px-0">
-              <span className="font-bold">Web</span> Development
+              <span className="font-bold text-rm-primary-700">Web</span>{" "}
+              Development
             </h3>
             <p className="font-light text-balance px-2 sm:px-0">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat
@@ -49,7 +50,7 @@ const ToolsSection = () => {
           </li>
           <li className="grid gap-2">
             <h3 className="uppercase text-2xl font-light px-2 sm:px-0">
-              <span className="font-bold">Logo</span> Design
+              <span className="font-bold text-rm-primary-700">Logo</span> Design
             </h3>
             <p className="font-light text-balance px-2 sm:px-0">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat
