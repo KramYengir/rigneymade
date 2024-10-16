@@ -39,9 +39,9 @@ const portfolioItems = [
 
 const PortfolioSection = () => {
   return (
-    <section className="py-24">
+    <section className="py-32 bg-rm-primary-800/5 dark:bg-inherit dark:bg-gradient-to-b  dark:from-neutral-700/40 dark:to-neutral-700/10">
       <div className="rm-container">
-        <div className="grid gap-2 justify-center text-center py-24">
+        <div className="grid gap-2 justify-center text-center pb-24">
           <h2 className="h2">our portfolio</h2>
           <p className="sub-heading">- Some of our work -</p>
         </div>
