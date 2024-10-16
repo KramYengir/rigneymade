@@ -21,7 +21,7 @@ const AboutUsSection = () => {
           <h3 className="uppercase text-2xl font-light px-2 sm:px-0">
             Behind <span className="font-bold">RigneyMade</span>
           </h3>
-          <p className="max-w-96  text-balance px-2 sm:px-0">
+          <p className="max-w-lg  text-balance px-2 sm:px-0">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed odit
             quae repudiandae dolor, neque iusto numquam, voluptatibus odio
             impedit labore illum? Fugit animi officia inventore delectus sit
