@@ -15,7 +15,7 @@
 }
 
 .h2 {
-  @apply uppercase text-3xl sm:text-5xl font-bold tracking-wider text-center text-rm-primary-700 dark:text-rm-primary-600;
+  @apply uppercase text-3xl sm:text-5xl font-extrabold tracking-wider text-center text-rm-primary-700 dark:text-rm-primary-600;
 }
 
 .sub-heading {
