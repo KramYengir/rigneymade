@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import techCloudImg from "@/assets/images/tech_cloud.png";
+import developImg from "@/assets/images/web-dev.png";
+import designImg from "@/assets/images/logo-design.png";
 
 const ServicesSection = () => {
   return (
@@ -11,13 +12,13 @@ const ServicesSection = () => {
       </div>
 
       {/* web development services */}
-      <div className="flex flex-wrap items-start gap-x-4 gap-y-12 mt-24">
+      <div className="flex flex-wrap items-center gap-x-4 gap-y-16 mt-24 mb-32">
         {/* image */}
         <div className="flex flex-col mx-auto ">
           <Image
-            src={techCloudImg}
+            src={developImg}
             alt="profile picture of Mark Rigney"
-            className="h-36 w-auto"
+            className="h-48 md:h-72 w-auto"
           />
         </div>
 
@@ -99,13 +100,13 @@ const ServicesSection = () => {
       </div>
 
       {/* logo design services */}
-      <div className="flex flex-wrap md:flex-row-reverse gap-x-4 gap-y-12 items-start mt-24">
+      <div className="flex flex-wrap md:flex-row-reverse gap-x-4 gap-y-12 items-center mt-24">
         {/* image */}
         <div className="flex flex-col mx-auto ">
           <Image
-            src={techCloudImg}
+            src={designImg}
             alt="profile picture of Mark Rigney"
-            className="h-36 w-auto"
+            className="h-48 md:h-72 w-auto"
           />
         </div>
 
