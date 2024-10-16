@@ -29,12 +29,12 @@ const BackgroundImage = () => {
         <Image
           src={desktopDarkBG}
           alt="faded background image of various web development graphics"
-          className="hidden lg:block absolute inset-0 -z-10 h-[100lvh] w-full object-cover opacity-40"
+          className="hidden lg:block absolute inset-0 -z-10 h-[100lvh] w-full object-cover opacity-20"
         />
         <Image
           src={mobileDarkBG}
           alt="faded background image of various web development graphics"
-          className="lg:hidden absolute inset-0 -z-10 h-[100lvh] w-full object-cover opacity-40"
+          className="lg:hidden absolute inset-0 -z-10 h-[100lvh] w-full object-cover opacity-20"
         />
       </div>
     </>
