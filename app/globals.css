@@ -14,12 +14,15 @@
   @apply uppercase inline-flex items-center justify-center rounded-md border border-rm-primary-700 dark:border-rm-primary-400 bg-transparent px-4 py-2 text-sm font-bold text-rm-primary-700 dark:hover:text-rm-primary-900 dark:text-rm-primary-400 shadow-sm hover:bg-rm-primary-200 focus:outline-none focus:ring-2 focus:ring-rm-primary-500 focus:ring-offset-2;
 }
 
+.h1 {
+  @apply uppercase text-5xl md:text-6xl 2xl:text-7xl font-extrabold tracking-wider text-center text-rm-primary-700;
+}
 .h2 {
-  @apply uppercase text-3xl sm:text-5xl font-extrabold tracking-wider text-center;
+  @apply uppercase text-3xl sm:text-5xl 2xl:text-6xl font-extrabold tracking-wider text-center;
 }
 
 .sub-heading {
-  @apply tracking-wider uppercase text-sm font-bold;
+  @apply tracking-wider uppercase text-sm 2xl:text-lg font-medium;
 }
 
 .h1-bg {
