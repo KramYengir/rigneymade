@@ -11,7 +11,7 @@ const portfolioItems = [
     image: mockupFerryhill,
     imageAlt: "laptop and mobile phone mockup showing ferryhill website",
     title: "Ferryhill Fish & Chips",
-    productType: "Website",
+    productType: "Website & Logo",
     description:
       "An informative website for a popular Fish and Chip restaurant in Manchester",
     link: "www.ferryhill.com",
@@ -20,7 +20,7 @@ const portfolioItems = [
     image: mockupReviews,
     imageAlt: "laptop and mobile phone mockup showing rigney reviews website",
     title: "Rigney Reviews",
-    productType: "Website",
+    productType: "Website & Logo",
     description:
       "A review blog template, allowing  clients to update blog content independently via a headless CMS",
     link: "www.rigneyreviews.com",
@@ -29,7 +29,7 @@ const portfolioItems = [
     image: mockupBGCM,
     imageAlt:
       "two business card mockups, one black and one white, showing the logo for brian grimes cabinet making",
-    title: "BGCM",
+    title: "BG Cabinet Making",
     productType: "Logo",
     description:
       "A meaningful logo for a fast-growing cabinet making company in Ireland - Brian Grimes Cabinet Making",

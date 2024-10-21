@@ -6,7 +6,7 @@ const AboutUsSection = () => {
   return (
     <section>
       <div className="grid gap-2 justify-center text-center h1-bg">
-        <h1 className="h2">About us</h1>
+        <h1 className="h1">About us</h1>
         <p className="sub-heading">- our story -</p>
       </div>
       <div className="rm-container grid md:grid-cols-2 items-center justify-center gap-y-12 py-32">
@@ -18,7 +18,7 @@ const AboutUsSection = () => {
           />
         </div>
         <div className="grid gap-2">
-          <h2 className="uppercase text-2xl font-light px-2 sm:px-0">
+          <h2 className="uppercase text-2xl lg:text-4xl font-light px-2 sm:px-0">
             Behind{" "}
             <span className="font-bold text-rm-primary-700">RigneyMade</span>
           </h2>

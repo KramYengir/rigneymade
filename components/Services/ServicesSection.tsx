@@ -7,14 +7,14 @@ const ServicesSection = () => {
   return (
     <section>
       <div className="grid gap-2 justify-center text-center h1-bg">
-        <h1 className="h2">Services</h1>
+        <h1 className="h1">Services</h1>
         <p className="sub-heading">- what we do -</p>
       </div>
       <div className="rm-container">
         {/* web development services */}
-        <div className="flex flex-wrap items-center gap-x-4 gap-y-16 mt-24 mb-32">
+        <div className="flex flex-wrap justify-evenly items-center gap-x-4 gap-y-16 mt-24 mb-32">
           {/* image */}
-          <div className="flex flex-col mx-auto ">
+          <div className="flex flex-col">
             <Image
               src={developImg}
               alt="profile picture of Mark Rigney"
@@ -23,13 +23,13 @@ const ServicesSection = () => {
           </div>
 
           {/* text */}
-          <div className="grid gap-12 max-w-prose">
+          <div className="flex-auto grid gap-12 max-w-prose">
             <div className="grid gap-2">
               <div className="grid">
-                <p className="uppercase tracking-wider text-xs bg-rm-primary-600/25 px-4 py-1 text-center rounded-t-lg max-w-fit">
+                {/* <p className="uppercase tracking-wider text-xs bg-rm-primary-600/25 px-4 py-1 text-center rounded-t-lg max-w-fit">
                   Our Primary Service
-                </p>
-                <h2 className="uppercase text-4xl tracking-wider font-light">
+                </p> */}
+                <h2 className="uppercase text-3xl lg:text-4xl tracking-wider font-light">
                   <span className="font-bold">Web</span> Development
                 </h2>
               </div>
@@ -100,9 +100,9 @@ const ServicesSection = () => {
         </div>
 
         {/* logo design services */}
-        <div className="flex flex-wrap md:flex-row-reverse gap-x-4 gap-y-12 items-center mt-24">
+        <div className="flex flex-wrap justify-evenly md:flex-row-reverse gap-x-4 gap-y-12 items-center mt-24">
           {/* image */}
-          <div className="flex flex-col mx-auto ">
+          <div className="flex flex-col">
             <Image
               src={designImg}
               alt="profile picture of Mark Rigney"

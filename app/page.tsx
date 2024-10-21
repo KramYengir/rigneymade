@@ -19,10 +19,9 @@ const HomePage = () => {
           <h2 className="h2">What we do</h2>
           <p className="sub-heading">- how we can help -</p>
         </div>
-        {/* <div className="grid md:flex gap-y-16 justify-evenly py-16 bg-rm-primary-950/5 dark:bg-inherit dark:bg-gradient-to-b  dark:from-neutral-700/40 dark:to-neutral-700/10"> */}
-        <div className="grid md:flex gap-y-16 justify-evenly py-16">
+        <div className="grid md:flex gap-y-16 justify-evenly py-24">
           <article className="grid justify-items-center text-center text-balance gap-4 max-w-xs sm:max-w-sm">
-            <h3 className="uppercase text-xl sm:text-2xl">
+            <h3 className="uppercase text-xl sm:text-2xl xl:text-4xl">
               <span className="font-bold text-rm-primary-700 dark:text-rm-primary-600">
                 Website
               </span>{" "}
@@ -38,7 +37,7 @@ const HomePage = () => {
           </article>
           <hr className="w-12 mx-auto md:hidden border-t-2 border-rm-primary-700 dark:border-rm-primary-600" />
           <article className="grid justify-items-center text-center text-balance gap-4 max-w-xs sm:max-w-sm">
-            <h3 className="uppercase text-xl sm:text-2xl ">
+            <h3 className="uppercase text-xl sm:text-2xl xl:text-4xl ">
               {" "}
               <span className="font-bold text-rm-primary-700 dark:text-rm-primary-600">
                 Logo
@@ -54,7 +53,7 @@ const HomePage = () => {
             </Link>
           </article>
         </div>
-        <div className="relative mt-32">
+        <div className="relative mt-24">
           <p className="mx-auto font-medium text-center text-balance text-2xl sm:text-4xl max-w-xs sm:max-w-screen-md">
             Whether it&apos;s a{" "}
             <span className="font-bold text-rm-primary-700 dark:text-rm-primary-600">

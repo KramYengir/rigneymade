@@ -16,17 +16,17 @@ const ToolsSection = () => {
       </div>
 
       {/* list of tools */}
-      <div className="rm-container grid md:grid-cols-2 items-center justify-center gap-y-12 py-32">
+      <div className="rm-container grid lg:grid-cols-2 items-center justify-center gap-y-12 py-32">
         <div className="flex flex-col mx-auto ">
           <Image
             src={techCloudImg}
             alt="various development software logos"
-            className="h-56 md:h-80 xl:h-[400px] w-auto"
+            className="h-36 md:h-80 xl:h-[400px] w-auto"
           />
         </div>
-        <ul className="grid gap-4 gap-y-6">
+        <ul className="grid gap-4 gap-y-12 ">
           <li className="grid gap-2">
-            <h3 className="uppercase text-2xl font-light px-2 sm:px-0">
+            <h3 className="uppercase text-2xl xl:text-4xl font-light px-2 sm:px-0">
               <span className="font-bold text-rm-primary-700">Web</span> Design
             </h3>
             <p className="font-light text-balance px-2 sm:px-0">
@@ -37,7 +37,7 @@ const ToolsSection = () => {
             </p>
           </li>
           <li className="grid gap-2">
-            <h3 className="uppercase text-2xl font-light px-2 sm:px-0">
+            <h3 className="uppercase text-2xl xl:text-4xl font-light px-2 sm:px-0">
               <span className="font-bold text-rm-primary-700">Web</span>{" "}
               Development
             </h3>
@@ -49,7 +49,7 @@ const ToolsSection = () => {
             </p>
           </li>
           <li className="grid gap-2">
-            <h3 className="uppercase text-2xl font-light px-2 sm:px-0">
+            <h3 className="uppercase text-2xl xl:text-4xl font-light px-2 sm:px-0">
               <span className="font-bold text-rm-primary-700">Logo</span> Design
             </h3>
             <p className="font-light text-balance px-2 sm:px-0">
