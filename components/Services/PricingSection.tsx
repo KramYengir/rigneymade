@@ -8,7 +8,7 @@ const products = [
     description: "A standard single or multi page small business website",
     bullets: [
       "Free Hosting",
-      "1 x Year of Support",
+      "1 Year of Support",
       "Domain Managment",
       "No Contracts",
     ],
@@ -43,7 +43,7 @@ const products = [
       "Logo Included",
     ],
     startingAt: false,
-    price: "£350",
+    price: "£300",
     yearly: true,
   },
 ];
