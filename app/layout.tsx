@@ -7,6 +7,7 @@ import Navbar from "@/components/Navbar";
 import Provider from "@/components/utils/Provider";
 import BackgroundImage from "@/components/BackgroundImage";
 import Footer from "@/components/Footer";
+import { Toaster } from "@/components/ui/toaster";
 
 const ubuntu = Ubuntu({
   weight: ["300", "400", "500", "700"],
@@ -38,6 +39,7 @@ export default function RootLayout({
           <main>{children}</main>
           <BackgroundImage />
           <Footer />
+          <Toaster />
         </Provider>
       </body>
     </html>

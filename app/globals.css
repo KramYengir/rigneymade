@@ -32,3 +32,10 @@
 .h2-bg {
   @apply py-12 bg-rm-primary-950/5   dark:bg-neutral-800/60;
 }
+
+@layer base {
+  :root {
+
+    --radius: 0.5rem
+  }
+}
