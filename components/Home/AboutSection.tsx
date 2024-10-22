@@ -10,12 +10,12 @@ const AboutSection = () => {
         <h2 className="h2">Who we are</h2>
         <p className="sub-heading">- our story -</p>
       </div>
-      <div className="grid md:grid-cols-2 items-center justify-center gap-y-12 py-32">
-        <div className="grid mx-auto rounded-xl overflow-hidden border-8 border-rm-primary-800">
+      <div className="rm-container flex flex-wrap items-center justify-evenly gap-y-12 py-32">
+        <div className="grid rounded-xl overflow-hidden border-8 border-rm-primary-800">
           <Image
             src={profileImg}
             alt="profile picture of Mark Rigney"
-            className=" h-80 w-auto"
+            className=" h-96 w-auto"
           />
         </div>
         <div className="grid gap-2">
