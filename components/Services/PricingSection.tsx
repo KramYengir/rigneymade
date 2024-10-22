@@ -1,5 +1,5 @@
 import React from "react";
-import PaymentCard from "./PaymentCard";
+import PricingCard from "./PricingCard";
 
 const products = [
   {
@@ -48,7 +48,7 @@ const products = [
   },
 ];
 
-const PaymentSection = () => {
+const PricingSection = () => {
   return (
     <section>
       <div className="grid gap-2 justify-center text-center h2-bg">
@@ -60,8 +60,8 @@ const PaymentSection = () => {
         </p>
       </div>
       <div className="rm-container">
-        <div className="grid gap-2 justify-center text-center py-24">
-          <h3 className="text-xl uppercase  tracking-wider">
+        <div className="grid gap-4 justify-center text-center py-24">
+          <h3 className="border-b-2 border-rm-primary-950/10 dark:border-rm-primary-50/10 text-xl uppercase tracking-wider pb-2">
             <span className="text-rm-primary-700 dark:text-rm-primary-600 font-bold">
               01. Product
             </span>{" "}
@@ -71,8 +71,8 @@ const PaymentSection = () => {
             This will be a once-off purchase of a specific product
           </p>
         </div>
-        <div className="flex flex-wrap gap-8 gap-y-12 items-center justify-evenly py-6">
-          <PaymentCard
+        <div className="flex flex-wrap gap-8 gap-y-32 items-center justify-evenly pt-6 pb-32">
+          <PricingCard
             headingA={products[0].headingA}
             headingB={products[0].headingB}
             description={products[0].description}
@@ -81,7 +81,7 @@ const PaymentSection = () => {
             price={products[0].price}
             yearlyPlan={products[0].yearly}
           />
-          <PaymentCard
+          <PricingCard
             headingA={products[1].headingA}
             headingB={products[1].headingB}
             description={products[1].description}
@@ -91,8 +91,8 @@ const PaymentSection = () => {
             yearlyPlan={products[1].yearly}
           />
         </div>
-        <div className="grid gap-2 justify-center text-center py-24">
-          <h3 className="text-xl uppercase  tracking-wider">
+        <div className="grid gap-4 justify-center text-center py-24">
+          <h3 className="border-b-2 border-rm-primary-950/10 dark:border-rm-primary-50/10 text-xl uppercase tracking-wider pb-2">
             <span className="text-rm-primary-700 dark:text-rm-primary-600 font-bold">
               02. Yearly
             </span>{" "}
@@ -103,7 +103,7 @@ const PaymentSection = () => {
             designing, developing and managing your website and/or logo
           </p>
         </div>
-        <PaymentCard
+        <PricingCard
           headingA={products[2].headingA}
           headingB={products[2].headingB}
           description={products[2].description}
@@ -117,4 +117,4 @@ const PaymentSection = () => {
   );
 };
 
-export default PaymentSection;
+export default PricingSection;

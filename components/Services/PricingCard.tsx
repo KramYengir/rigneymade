@@ -1,6 +1,6 @@
 import React from "react";
 
-interface PaymentCardProps {
+interface PricingCardProps {
   headingA: string;
   headingB: string;
   description: string;
@@ -10,7 +10,7 @@ interface PaymentCardProps {
   yearlyPlan: boolean;
 }
 
-const PaymentCard = ({
+const PricingCard = ({
   headingA,
   headingB,
   description,
@@ -18,7 +18,7 @@ const PaymentCard = ({
   startingAt,
   price,
   yearlyPlan,
-}: PaymentCardProps) => {
+}: PricingCardProps) => {
   if (!yearlyPlan)
     return (
       <div
@@ -77,4 +77,4 @@ const PaymentCard = ({
     );
 };
 
-export default PaymentCard;
+export default PricingCard;

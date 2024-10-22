@@ -1,6 +1,6 @@
 import React from "react";
 import ServicesSection from "@/components/Services/ServicesSection";
-import PaymentSection from "@/components/Services/PaymentSection";
+import PricingSection from "@/components/Services/PricingSection";
 
 const ServicesPage = () => {
   return (
@@ -10,7 +10,7 @@ const ServicesPage = () => {
         <p className="sub-heading">- what we do -</p>
       </div>
       <ServicesSection />
-      <PaymentSection />
+      <PricingSection />
     </>
   );
 };
