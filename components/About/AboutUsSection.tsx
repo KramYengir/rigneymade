@@ -5,10 +5,6 @@ import profileImg from "@/assets/images/profile-img.webp";
 const AboutUsSection = () => {
   return (
     <section>
-      <div className="grid gap-2 justify-center text-center h1-bg">
-        <h1 className="h1">About us</h1>
-        <p className="sub-heading">- our story -</p>
-      </div>
       <div className="rm-container grid md:grid-cols-2 items-center justify-center gap-y-12 py-32">
         <div className="relative grid mx-auto rounded-full overflow-hidden">
           <Image
