@@ -1,8 +1,7 @@
 import React, { ReactNode } from "react";
-import Image, { StaticImageData } from "next/image";
 
 interface ProcessCardProps {
-  icon: StaticImageData;
+  icon: string;
   title: string;
   description: string;
   number: string;
@@ -16,12 +15,7 @@ const ProcessCard = ({
 }: ProcessCardProps) => {
   return (
     <div className="flex flex-col gap-8 text-center max-w-xs py-12 shadow-lg rounded-2xl border bg-white dark:bg-neutral-900/80 ">
-      <Image
-        src={icon}
-        alt={title}
-        className="h-24 w-auto mx-auto"
-        aria-hidden
-      />
+      <img src={icon} alt={title} className="h-24 w-auto mx-auto" aria-hidden />
       <div className="relative grid items-center justify-center">
         <h4 className="text-4xl text-rm-primary-700 dark:text-rm-primary-400 font-bold">
           {title}

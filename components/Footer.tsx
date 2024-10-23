@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import whiteLogo from "@/assets/images/rm-logo-white.svg";
 import { Arimo } from "next/font/google";
 
 const arimo = Arimo({
@@ -13,8 +12,8 @@ const Footer = () => {
     <footer className=" bg-gradient-to-t from-rm-primary-950 pt-64 mt-32 text-white">
       <div className="flex flex-wrap gap-8 gap-y-24 items-start justify-evenly px-12">
         <div className="flex-1 grid sm:flex items-center justify-center">
-          <Image
-            src={whiteLogo}
+          <img
+            src={"/images/rm-logo-white.svg"}
             alt="rigneymade logo - a handwritten r m"
             className="h-auto w-24 md:w-32 mx-auto sm:mx-0"
           />

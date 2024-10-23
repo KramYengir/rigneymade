@@ -1,14 +1,10 @@
 import React from "react";
-import Image from "next/image";
-import Link from "next/link";
-import mockupFerryhill from "@/assets/images/mockup-ferryhill.webp";
-import mockupBGCM from "@/assets/images/mockup-bgcm.png";
-import mockupReviews from "@/assets/images/mockup-reviews.webp";
 import PortfolioCard from "./PortfolioCard";
 
 const portfolioItems = [
   {
-    image: mockupFerryhill,
+    image: "/images/ferryhill-portfolio-mockup.webp",
+    imageDark: "/images/ferryhill-portfolio-mockup.webp",
     imageAlt: "laptop and mobile phone mockup showing ferryhill website",
     title: "Ferryhill Fish & Chips",
     productType: "Website & Logo",
@@ -17,7 +13,8 @@ const portfolioItems = [
     link: "https://www.ferryhillfishandchips.com",
   },
   {
-    image: mockupReviews,
+    image: "/images/rigney-reviews-portfolio-mockup.webp",
+    imageDark: "/images/rigney-reviews-portfolio-mockup.webp",
     imageAlt: "laptop and mobile phone mockup showing rigney reviews website",
     title: "Rigney Reviews",
     productType: "Website & Logo",
@@ -26,7 +23,8 @@ const portfolioItems = [
     link: "https://www.rigneyreviews.com",
   },
   {
-    image: mockupBGCM,
+    image: "/images/bgcm-logo-black.png",
+    imageDark: "/images/bgcm-logo-white.png",
     imageAlt:
       "two business card mockups, one black and one white, showing the logo for brian grimes cabinet making",
     title: "BG Cabinet Making",
@@ -49,7 +47,8 @@ const PortfolioSection = () => {
         {portfolioItems.map((item, index) => (
           <li key={index}>
             <PortfolioCard
-              image={item.image}
+              imageUrl={item.image}
+              imageDarkUrl={item.imageDark}
               imageAlt={item.imageAlt}
               title={item.title}
               productType={item.productType}

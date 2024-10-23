@@ -1,10 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
-import heroImgLight from "@/assets/images/hero-img-light.webp";
-import heroImgDark from "@/assets/images/hero-img-dark.webp";
-import { CldImage } from "next-cloudinary";
-import CloudImg from "../CloudImg";
 
 const Hero = () => {
   return (
@@ -46,25 +41,15 @@ const Hero = () => {
         </div>
         {/* image */}
         <div className="flex-1">
-          {/* <Image
-            src={heroImgLight}
+          <img
+            src="/images/hero-img-light.webp"
             alt="Hero Image"
             className="z-10 dark:hidden"
           />
-          <Image
-            src={heroImgDark}
+          <img
+            src="/images/hero-img-dark.webp"
             alt="Hero Image"
             className="z-10 hidden dark:block"
-          /> */}
-          <CloudImg
-            src={"/hero-img-light_p5lfcr.webp"}
-            alt="a mockup of a laptop, phone and business card"
-            className="z-10 pl-6 sm:pl-0 dark:hidden"
-          />
-          <CloudImg
-            src={"/hero-img-dark_drrnoj.webp"}
-            alt="a mockup of a laptop, phone and business card"
-            className="z-10 pl-6 sm:pl-0 hidden dark:block"
           />
         </div>
       </div>

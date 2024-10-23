@@ -5,8 +5,6 @@ import Image from "next/image";
 import { Arimo } from "next/font/google";
 import { usePathname } from "next/navigation";
 import ThemeToggle from "@/components/ThemeToggle";
-import blackLogo from "@/assets/images/rm-logo-black.svg";
-import primaryLogo from "@/assets/images/rm-logo-blue.svg";
 
 const arimo = Arimo({
   weight: ["600", "400", "500", "700"],
@@ -73,13 +71,13 @@ const Navbar: React.FC = () => {
             {/* Logo or Brand */}
             <div>
               <Link href="/" className="flex-shrink-0 flex items-center gap-2">
-                <Image
-                  src={blackLogo}
+                <img
+                  src="/images/rm-logo-black.svg"
                   alt="rigneymade logo - a handwritten r m"
                   className="h-12 w-auto dark:hidden"
                 />
-                <Image
-                  src={primaryLogo}
+                <img
+                  src="/images/rm-logo-blue.svg"
                   alt="rigneymade logo - a handwritten r m"
                   className="h-12 w-auto hidden dark:block"
                 />
