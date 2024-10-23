@@ -64,7 +64,7 @@ const ContactForm: React.FC = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="sm:min-w-[480px] flex flex-col space-y-8 max-w-lg mx-auto p-8 dark:border border-gray-300 rounded-lg shadow-lg shadow-rm-primary-950/40  bg-gray-100/60 dark:bg-neutral-800/60"
+      className="min-w-[90vw] sm:min-w-[480px] flex flex-col space-y-8 max-w-lg mx-auto p-8 dark:border border-gray-300 rounded-lg shadow-lg shadow-rm-primary-950/40  bg-gray-100/60 dark:bg-neutral-800/60"
     >
       <h2 className="uppercase text-2xl font-extrabold text-rm-primary-800 dark:text-gray-200">
         Leave us a message
