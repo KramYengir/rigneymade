@@ -14,7 +14,7 @@ const products = [
     ],
     startingAt: true,
     price: "£500",
-    yearly: false,
+    monthly: false,
   },
   {
     headingA: "Logo",
@@ -28,7 +28,7 @@ const products = [
     ],
     startingAt: false,
     price: "£350",
-    yearly: false,
+    monthly: false,
   },
   {
     headingA: "Complete",
@@ -44,7 +44,7 @@ const products = [
     ],
     startingAt: false,
     price: "£300",
-    yearly: true,
+    monthly: true,
   },
 ];
 
@@ -79,7 +79,7 @@ const PricingSection = () => {
             bullets={products[0].bullets}
             startingAt={products[0].startingAt}
             price={products[0].price}
-            yearlyPlan={products[0].yearly}
+            monthlyPlan={products[0].monthly}
           />
           <PricingCard
             headingA={products[1].headingA}
@@ -88,13 +88,13 @@ const PricingSection = () => {
             bullets={products[1].bullets}
             startingAt={products[1].startingAt}
             price={products[1].price}
-            yearlyPlan={products[1].yearly}
+            monthlyPlan={products[1].monthly}
           />
         </div>
         <div className="grid gap-4 justify-center text-center py-24">
           <h3 className="border-b-2 border-rm-primary-950/10 dark:border-rm-primary-50/10 text-xl uppercase tracking-wider pb-2">
             <span className="text-rm-primary-700 dark:text-rm-primary-600 font-bold">
-              02. Yearly
+              02. Monthly
             </span>{" "}
             Plan
           </h3>
@@ -110,7 +110,7 @@ const PricingSection = () => {
           bullets={products[2].bullets}
           startingAt={products[2].startingAt}
           price={products[2].price}
-          yearlyPlan={products[2].yearly}
+          monthlyPlan={products[2].monthly}
         />
       </div>
     </section>
