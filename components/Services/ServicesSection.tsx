@@ -1,7 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import developImg from "@/assets/images/web-dev.png";
-import designImg from "@/assets/images/logo-design.png";
 
 const ServicesSection = () => {
   return (
@@ -10,8 +7,8 @@ const ServicesSection = () => {
       <div className="flex flex-wrap justify-evenly items-center gap-x-4 gap-y-16 mt-24 mb-32">
         {/* image */}
         <div className="flex flex-col">
-          <Image
-            src={developImg}
+          <img
+            src={"/images/web-dev.png"}
             alt="profile picture of Mark Rigney"
             className="h-48 md:h-72 w-auto"
           />
@@ -98,8 +95,8 @@ const ServicesSection = () => {
       <div className="flex flex-wrap justify-evenly md:flex-row-reverse gap-x-4 gap-y-12 items-center mt-24">
         {/* image */}
         <div className="flex flex-col">
-          <Image
-            src={designImg}
+          <img
+            src={"/images/logo-design.png"}
             alt="profile picture of Mark Rigney"
             className="h-48 md:h-72 w-auto"
           />

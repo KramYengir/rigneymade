@@ -1,14 +1,12 @@
-import Image from "next/image";
 import React from "react";
-import profileImg from "@/assets/images/profile-img.webp";
 
 const AboutUsSection = () => {
   return (
     <section>
       <div className="rm-container grid md:grid-cols-2 items-center justify-center gap-y-12 py-32">
         <div className="relative grid mx-auto rounded-full overflow-hidden">
-          <Image
-            src={profileImg}
+          <img
+            src={"/images/profile-img.webp"}
             alt="profile picture of Mark Rigney"
             className=" h-80 w-auto"
           />

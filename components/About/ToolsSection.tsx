@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import techCloudImg from "@/assets/images/tech_cloud.png";
 
 const ToolsSection = () => {
@@ -18,8 +17,8 @@ const ToolsSection = () => {
       {/* list of tools */}
       <div className="rm-container grid lg:grid-cols-2 items-center justify-center gap-y-12 py-32">
         <div className="flex flex-col mx-auto ">
-          <Image
-            src={techCloudImg}
+          <img
+            src={"/images/tech-cloud.png"}
             alt="various development software logos"
             className="h-36 md:h-80 xl:h-[400px] w-auto"
           />
