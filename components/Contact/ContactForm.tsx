@@ -64,10 +64,10 @@ const ContactForm: React.FC = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex flex-col space-y-8 max-w-lg mx-auto p-6 border border-gray-300 rounded-lg shadow-md bg-white dark:bg-neutral-800"
+      className="sm:min-w-[480px] flex flex-col space-y-8 max-w-lg mx-auto p-8 dark:border border-gray-300 rounded-lg shadow-lg shadow-rm-primary-950/40  bg-gray-100/60 dark:bg-neutral-800/60"
     >
-      <h2 className="text-xl font-semibold text-gray-800 dark:text-gray-200">
-        Leave us a message...
+      <h2 className="uppercase text-2xl font-extrabold text-rm-primary-800 dark:text-gray-200">
+        Leave us a message
       </h2>
       <input
         type="text"
@@ -94,14 +94,12 @@ const ContactForm: React.FC = () => {
         onChange={(e) => setFormData({ ...formData, message: e.target.value })}
         required
         className="p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-neutral-700 dark:text-gray-200"
-        rows={4}
+        rows={6}
       />
       <button
         type="submit"
-        className={`py-2 px-4 font-semibold rounded transition-colors ${
-          isSending
-            ? "bg-gray-500 text-gray-200 cursor-not-allowed"
-            : "bg-blue-600 text-white hover:bg-blue-500"
+        className={`btn-primary py-2 px-4 font-semibold rounded transition-colors ${
+          isSending ? "btn-secondary cursor-not-allowed" : "btn-primary"
         }`}
         disabled={isSending} // Disable button while sending
       >
