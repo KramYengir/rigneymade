@@ -56,13 +56,13 @@ const PricingSection = () => {
         <p className="sub-heading">- what we offer -</p>
         <p className="text-balance font-light leading-6 px-6 sm:px-0 text-center max-w-prose mx-auto">
           When it comes to paying for a service, we provide two options which we
-          feel are felxible enought to suit most customer needs.
+          feel are flexible enought to suit most customer needs.
         </p>
       </div>
       <div className="rm-container">
         <div className="grid gap-4 justify-center text-center py-24">
           <h3 className="border-b-2 border-rm-primary-950/10 dark:border-rm-primary-50/10 text-xl uppercase tracking-wider pb-2">
-            <span className="text-rm-primary-700 dark:text-rm-primary-600 font-bold">
+            <span className="text-rm-primary-700 dark:text-rm-primary-400 font-bold">
               01. Product
             </span>{" "}
             Plan
@@ -93,7 +93,7 @@ const PricingSection = () => {
         </div>
         <div className="grid gap-4 justify-center text-center py-24">
           <h3 className="border-b-2 border-rm-primary-950/10 dark:border-rm-primary-50/10 text-xl uppercase tracking-wider pb-2">
-            <span className="text-rm-primary-700 dark:text-rm-primary-600 font-bold">
+            <span className="text-rm-primary-700 dark:text-rm-primary-400 font-bold">
               02. Monthly
             </span>{" "}
             Plan

@@ -43,7 +43,7 @@ const PortfolioSection = () => {
         <p className="sub-heading">- Some of our work -</p>
       </div>
 
-      <ul className="flex flex-wrap gap-8 gap-y-12 items-center justify-evenly py-32">
+      <ul className="flex flex-wrap gap-8 gap-y-12 items-center justify-evenly py-48">
         {portfolioItems.map((item, index) => (
           <li key={index}>
             <PortfolioCard

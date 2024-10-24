@@ -3,8 +3,8 @@ import React from "react";
 const AboutUsSection = () => {
   return (
     <section>
-      <div className="rm-container grid md:grid-cols-2 items-center justify-center gap-y-12 py-32">
-        <div className="relative grid mx-auto rounded-full overflow-hidden">
+      <div className="rm-container flex flex-wrap items-center justify-center gap-x-32 gap-y-12 py-36">
+        <div className="rounded-full overflow-hidden">
           <img
             src={"/images/profile-img.webp"}
             alt="profile picture of Mark Rigney"

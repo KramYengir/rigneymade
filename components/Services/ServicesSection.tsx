@@ -42,7 +42,7 @@ const ServicesSection = () => {
             <div className="grid gap-2">
               <h4 className="uppercase text-lg tracking-wider">
                 Fully{" "}
-                <span className="font-bold text-rm-primary-700 dark:text-rm-primary-600">
+                <span className="font-bold text-rm-primary-700 dark:text-rm-primary-400">
                   Responsive
                 </span>
               </h4>
@@ -54,7 +54,7 @@ const ServicesSection = () => {
             <div className="grid gap-2">
               <h4 className="uppercase text-lg tracking-wider">
                 Fully{" "}
-                <span className="font-bold text-rm-primary-700 dark:text-rm-primary-600">
+                <span className="font-bold text-rm-primary-700 dark:text-rm-primary-400">
                   Responsive
                 </span>
               </h4>
@@ -66,7 +66,7 @@ const ServicesSection = () => {
             <div className="grid gap-2">
               <h4 className="uppercase text-lg tracking-wider">
                 Fully{" "}
-                <span className="font-bold text-rm-primary-700 dark:text-rm-primary-600">
+                <span className="font-bold text-rm-primary-700 dark:text-rm-primary-400">
                   Responsive
                 </span>
               </h4>
@@ -78,7 +78,7 @@ const ServicesSection = () => {
             <div className="grid gap-2">
               <h4 className="uppercase text-lg tracking-wider">
                 Fully{" "}
-                <span className="font-bold text-rm-primary-700 dark:text-rm-primary-600">
+                <span className="font-bold text-rm-primary-700 dark:text-rm-primary-400">
                   Responsive
                 </span>
               </h4>
@@ -125,7 +125,7 @@ const ServicesSection = () => {
             <div className="grid gap-2">
               <h4 className="uppercase text-lg tracking-wider">
                 Fully{" "}
-                <span className="font-bold text-rm-primary-700 dark:text-rm-primary-600">
+                <span className="font-bold text-rm-primary-700 dark:text-rm-primary-400">
                   Responsive
                 </span>
               </h4>
@@ -137,7 +137,7 @@ const ServicesSection = () => {
             <div className="grid gap-2">
               <h4 className="uppercase text-lg tracking-wider">
                 Fully{" "}
-                <span className="font-bold text-rm-primary-700 dark:text-rm-primary-600">
+                <span className="font-bold text-rm-primary-700 dark:text-rm-primary-400">
                   Responsive
                 </span>
               </h4>
@@ -149,7 +149,7 @@ const ServicesSection = () => {
             <div className="grid gap-2">
               <h4 className="uppercase text-lg tracking-wider">
                 Fully{" "}
-                <span className="font-bold text-rm-primary-700 dark:text-rm-primary-600">
+                <span className="font-bold text-rm-primary-700 dark:text-rm-primary-400">
                   Responsive
                 </span>
               </h4>
@@ -161,7 +161,7 @@ const ServicesSection = () => {
             <div className="grid gap-2">
               <h4 className="uppercase text-lg tracking-wider">
                 Fully{" "}
-                <span className="font-bold text-rm-primary-700 dark:text-rm-primary-600">
+                <span className="font-bold text-rm-primary-700 dark:text-rm-primary-400">
                   Responsive
                 </span>
               </h4>

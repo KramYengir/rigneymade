@@ -22,7 +22,7 @@ const ContactPage = () => {
             quo, soluta magni quisquam placeat?
           </p>
           <div className="grid gap-4 max-w-md mt-4">
-            <div className="flex gap-4 items-center px-2 py-4 rounded-md bg-neutral-400/10">
+            <div className="flex gap-6 items-center px-4 py-4 rounded-md bg-neutral-400/10">
               <BsTelephone size={32} />
               <div className="flex flex-col gap-1">
                 <a href="tel:1234567" className="text-balance font-semibold">
@@ -33,7 +33,7 @@ const ContactPage = () => {
                 </p>
               </div>
             </div>
-            <div className="flex gap-4 items-center px-2 py-4 rounded-md bg-neutral-400/10">
+            <div className="flex gap-6 items-center px-4 py-4 rounded-md bg-neutral-400/10">
               <Mail size={32} />
               <div className="flex flex-col gap-1">
                 <a
@@ -47,7 +47,7 @@ const ContactPage = () => {
                 </p>
               </div>
             </div>
-            <div className="flex gap-4 items-center px-2 py-4 rounded-md bg-neutral-400/10">
+            <div className="flex gap-6 items-center px-4 py-4 rounded-md bg-neutral-400/10">
               <MapPin size={32} />
               <div className="flex flex-col gap-1">
                 <p className="text-balance font-semibold">Liverpool, UK</p>
