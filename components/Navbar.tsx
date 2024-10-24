@@ -1,7 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { Arimo } from "next/font/google";
 import { usePathname } from "next/navigation";
 import ThemeToggle from "@/components/ThemeToggle";
@@ -129,6 +128,15 @@ const Navbar: React.FC = () => {
               >
                 Contact
               </Link>
+              <Link
+                href="/faq"
+                className={`px-3 py-2 rounded-md text-sm font-medium ${linkClasses(
+                  "/faq"
+                )}`}
+              >
+                FAQ
+              </Link>
+
               <ThemeToggle />
             </div>
           </div>
@@ -200,6 +208,15 @@ const Navbar: React.FC = () => {
               onClick={closeMenu}
             >
               Contact
+            </Link>
+            <Link
+              href="/faq"
+              className={`block py-2 rounded-md text-base font-medium ${linkClasses(
+                "/faq"
+              )}`}
+              onClick={closeMenu}
+            >
+              FAQ
             </Link>
             <ThemeToggle />
           </div>
