@@ -35,12 +35,12 @@ const PortfolioCard = ({
       />
       <div className="flex flex-col justify-evenly gap-2 ">
         <div className="grid justify-start">
-          <h3 className="text-2xl xl:text-2xl text-balance text-rm-primary-900 dark:text-rm-primary-50 font-extrabold">
+          <h3 className="uppercase text-xl xl:text-xl text-balance text-rm-primary-700 dark:text-rm-primary-50 font-extrabold">
             {title}
           </h3>
           <p className="text-sm font-light">{productType}</p>
         </div>
-        <p className="leading-relaxed">{description}</p>
+        <p className="leading-relaxed font-light">{description}</p>
         <Link href={link} className="btn-primary">
           Check it out
         </Link>
