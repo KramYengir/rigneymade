@@ -14,7 +14,9 @@ const AboutUsSection = () => {
         <div className="grid gap-2">
           <h2 className="uppercase text-2xl lg:text-4xl font-light px-2 sm:px-0">
             Behind{" "}
-            <span className="font-bold text-rm-primary-700">RigneyMade</span>
+            <span className="font-bold text-rm-primary-700 dark:text-rm-primary-400">
+              RigneyMade
+            </span>
           </h2>
           <p className="max-w-lg  text-balance px-2 sm:px-0">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed odit

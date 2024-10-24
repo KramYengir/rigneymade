@@ -26,7 +26,10 @@ const ToolsSection = () => {
         <ul className="grid gap-4 gap-y-12 ">
           <li className="grid gap-2">
             <h3 className="uppercase text-2xl xl:text-4xl font-light px-2 sm:px-0">
-              <span className="font-bold text-rm-primary-700">Web</span> Design
+              <span className="font-bold text-rm-primary-700 dark:text-rm-primary-400">
+                Web
+              </span>{" "}
+              Design
             </h3>
             <p className="font-light text-balance px-2 sm:px-0">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat
@@ -37,7 +40,9 @@ const ToolsSection = () => {
           </li>
           <li className="grid gap-2">
             <h3 className="uppercase text-2xl xl:text-4xl font-light px-2 sm:px-0">
-              <span className="font-bold text-rm-primary-700">Web</span>{" "}
+              <span className="font-bold text-rm-primary-700 dark:text-rm-primary-400">
+                Web
+              </span>{" "}
               Development
             </h3>
             <p className="font-light text-balance px-2 sm:px-0">
@@ -49,7 +54,10 @@ const ToolsSection = () => {
           </li>
           <li className="grid gap-2">
             <h3 className="uppercase text-2xl xl:text-4xl font-light px-2 sm:px-0">
-              <span className="font-bold text-rm-primary-700">Logo</span> Design
+              <span className="font-bold text-rm-primary-700 dark:text-rm-primary-400">
+                Logo
+              </span>{" "}
+              Design
             </h3>
             <p className="font-light text-balance px-2 sm:px-0">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat
