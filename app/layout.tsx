@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-import { Ubuntu, Noto_Sans } from "next/font/google";
+import { Open_Sans } from "next/font/google";
 import "./globals.css";
 
 import Navbar from "@/components/Navbar";
@@ -9,13 +9,8 @@ import BackgroundImage from "@/components/BackgroundImage";
 import Footer from "@/components/Footer";
 import { Toaster } from "@/components/ui/toaster";
 
-const ubuntu = Ubuntu({
-  weight: ["300", "400", "500", "700"],
-  subsets: ["latin"],
-});
-
-const notoSans = Noto_Sans({
-  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+const open_Sans = Open_Sans({
+  weight: ["300", "400", "500", "600", "700", "800"],
   subsets: ["latin"],
 });
 
@@ -32,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="h-full" suppressHydrationWarning>
       <body
-        className={`${notoSans.className} relative h-full text-neutral-700 dark:text-neutral-100 tracking-wide`}
+        className={`${open_Sans.className} relative h-full text-neutral-700 dark:text-neutral-100 tracking-wide`}
       >
         <Provider>
           <Navbar />
