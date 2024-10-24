@@ -29,8 +29,8 @@ const ContactForm: React.FC = () => {
         process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || "",
         process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || "",
         {
-          from_name: formData.name,
-          from_email: formData.email,
+          name: formData.name,
+          email: formData.email,
           message: formData.message,
         },
         process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || ""
@@ -64,12 +64,22 @@ const ContactForm: React.FC = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="min-w-[90vw] sm:min-w-[480px] flex flex-col space-y-8 max-w-lg mx-auto p-8 dark:border border-gray-300 rounded-lg shadow-lg shadow-rm-primary-950/40  bg-gray-100/60 dark:bg-neutral-800/60"
+      className="min-w-[90vw] sm:min-w-[480px] flex flex-col space-y-8 max-w-lg mx-auto p-8 dark:border border-gray-300 rounded-lg shadow-lg shadow-rm-primary-950/40 bg-gray-100/60 dark:bg-neutral-800/60"
     >
-      <h2 className="uppercase text-2xl font-extrabold text-rm-primary-800 dark:text-gray-200">
-        Leave us a message
-      </h2>
+      <div>
+        <h2 className="uppercase text-2xl font-extrabold text-rm-primary-800 dark:text-gray-200">
+          Leave us a message
+        </h2>
+        <p className="text-sm font-light mt-2">
+          We will do our best to get back to you within 24hrs
+        </p>
+      </div>
+
+      <label htmlFor="name" className="sr-only">
+        Name
+      </label>
       <input
+        id="name"
         type="text"
         name="name"
         placeholder="Your Name"
@@ -78,7 +88,12 @@ const ContactForm: React.FC = () => {
         required
         className="p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-neutral-700 dark:text-gray-200"
       />
+
+      <label htmlFor="email" className="sr-only">
+        Email
+      </label>
       <input
+        id="email"
         type="email"
         name="email"
         placeholder="Your Email"
@@ -87,7 +102,12 @@ const ContactForm: React.FC = () => {
         required
         className="p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-neutral-700 dark:text-gray-200"
       />
+
+      <label htmlFor="message" className="sr-only">
+        Message
+      </label>
       <textarea
+        id="message"
         name="message"
         placeholder="Your Message"
         value={formData.message}
@@ -96,12 +116,13 @@ const ContactForm: React.FC = () => {
         className="p-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-neutral-700 dark:text-gray-200"
         rows={6}
       />
+
       <button
         type="submit"
         className={`btn-primary py-2 px-4 font-semibold rounded transition-colors ${
           isSending ? "btn-secondary cursor-not-allowed" : "btn-primary"
         }`}
-        disabled={isSending} // Disable button while sending
+        disabled={isSending}
       >
         {isSending ? "Sending..." : "Send"}
       </button>
