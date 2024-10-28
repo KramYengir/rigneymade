@@ -7,7 +7,7 @@ const AboutPage = () => {
     <div>
       <div className="grid gap-2 justify-center text-center h1-bg">
         <h1 className="h1">About Us</h1>
-        <p className="sub-heading">- our story -</p>
+        <p className="h1-sub-heading">- our story -</p>
       </div>
       <AboutUsSection />
       <ToolsSection />

@@ -8,7 +8,7 @@ const ContactPage = () => {
     <>
       <div className="grid gap-2 justify-center text-center h1-bg">
         <h1 className="h1">Contact</h1>
-        <p className="sub-heading">- get in touch -</p>
+        <p className="h1-sub-heading">- get in touch -</p>
       </div>
       <div className="rm-container flex flex-wrap justify-center gap-y-12 my-16 sm:my-24">
         <div className="max-w-screen-sm flex flex-col gap-4 pt-8">

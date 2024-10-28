@@ -7,7 +7,7 @@ const ToolsSection = () => {
       <div className="grid gap-2 justify-center text-center h2-bg">
         <h2 className="h2">Our Toolbox</h2>
         <p className="sub-heading">- the nerdy stuff -</p>
-        <p className="text-balance font-light leading-6 px-6 sm:px-0 text-center max-w-prose mx-auto">
+        <p className="section-preface">
           I&apos;m constantly striving to improve and learn new technologies
           that enhance my work. While I regularly expand my skill set, my core
           expertise lies in the following technologies:
