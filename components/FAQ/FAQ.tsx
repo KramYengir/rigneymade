@@ -35,14 +35,14 @@ const FAQ: React.FC<FAQProps> = ({ items, categories }) => {
   return (
     <section className="rm-container grid justify-center py-24">
       {/* Category Tabs */}
-      <div className="flex mx-auto divide-x-2">
+      <div className="flex mx-auto gap-4">
         {categories.map((category, index) => (
           <button
             key={index}
-            className={`py-2 px-4 rounded-t-md ${
+            className={`uppercase text-xs sm:text-sm py-2 px-4 rounded-md ${
               selectedCategory === category
-                ? "bg-rm-primary-700 font-semibold text-white"
-                : "bg-gray-50 dark:bg-neutral-800/60 text-gray-700 dark:text-white hover:bg-gray-200"
+                ? "bg-rm-primary-700 font-bold text-white"
+                : "dark:bg-neutral-800/60 text-gray-700/80 dark:text-white/60 border border-rm-primary-700 hover:bg-gray-200"
             }`}
             onClick={() => handleCategoryChange(category)}
           >
@@ -52,19 +52,19 @@ const FAQ: React.FC<FAQProps> = ({ items, categories }) => {
       </div>
 
       {/* FAQ Items */}
-      <div className="overflow-hidden rounded-md sm:min-w-[60vw]">
+      <div className="overflow-hidden rounded-md sm:w-[60vw] mt-6">
         {filteredItems.length > 0 ? (
           filteredItems.map((item, index) => (
             <div key={index}>
               <div
-                className="flex items-center justify-between p-4 cursor-pointer bg-gray-100 dark:bg-neutral-800/60 hover:bg-gray-200 dark:hover:bg-neutral-600/60"
+                className="flex items-center justify-between p-4 cursor-pointer  dark:bg-neutral-800/60 hover:bg-gray-200 dark:hover:bg-neutral-600/60"
                 onClick={() => handleToggle(index)}
                 aria-expanded={openIndex === index}
                 aria-controls={`answer-${index}`}
                 id={`question-${index}`}
               >
                 <h2 className="text-lg font-semibold">{item.question}</h2>
-                <span className="text-xl font-semibold">
+                <span className="text-xl font-bold pl-4">
                   {openIndex === index ? <ChevronUp /> : <ChevronDown />}
                 </span>
               </div>
@@ -74,7 +74,7 @@ const FAQ: React.FC<FAQProps> = ({ items, categories }) => {
                   id={`answer-${index}`}
                   aria-labelledby={`question-${index}`}
                 >
-                  <p className="font-light">{item.answer}</p>
+                  <p className="font-light max-w-[80%]">{item.answer}</p>
                 </div>
               )}
             </div>
