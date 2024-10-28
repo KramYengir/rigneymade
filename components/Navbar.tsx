@@ -58,9 +58,9 @@ const Navbar: React.FC = () => {
 
   return (
     <nav
-      className={`fixed w-full z-10 transition-all backdrop-blur-sm ${
+      className={`fixed w-full z-10 transition-all backdrop-blur-md ${
         isScrolled
-          ? "bg-white/80 shadow-md dark:bg-neutral-800/90"
+          ? "bg-white/80 shadow-md dark:bg-stone-950/80"
           : "bg-white/80 dark:bg-transparent"
       }`}
     >
@@ -87,7 +87,7 @@ const Navbar: React.FC = () => {
                     RigneyMade
                   </p>
                   <p
-                    className={`${arimo.className} uppercase tracking-wider text-xs text-rm-primary-700 dark:text-rm-primary-300`}
+                    className={`${arimo.className} uppercase tracking-wider text-xs text-rm-primary-700 dark:text-rm-primary-400`}
                   >
                     Digital Designs
                   </p>
@@ -95,36 +95,28 @@ const Navbar: React.FC = () => {
               </Link>
             </div>
             {/* Desktop Menu Links */}
-            <div className="hidden md:flex sm:space-x-8 items-center">
+            <div className="uppercase font-semibold text-xs hidden md:flex sm:space-x-8 items-center">
               <Link
                 href="/"
-                className={`px-3 py-2 rounded-md text-sm font-medium ${linkClasses(
-                  "/"
-                )}`}
+                className={`px-3 py-2 rounded-md ${linkClasses("/")}`}
               >
                 Home
               </Link>
               <Link
                 href="/about"
-                className={`px-3 py-2 rounded-md text-sm font-medium ${linkClasses(
-                  "/about"
-                )}`}
+                className={`px-3 py-2 rounded-md ${linkClasses("/about")}`}
               >
                 About
               </Link>
               <Link
                 href="/services"
-                className={`px-3 py-2 rounded-md text-sm font-medium ${linkClasses(
-                  "/services"
-                )}`}
+                className={`px-3 py-2 rounded-md ${linkClasses("/services")}`}
               >
                 Services
               </Link>
               <Link
                 href="/contact"
-                className={`px-3 py-2 rounded-md text-sm font-medium ${linkClasses(
-                  "/contact"
-                )}`}
+                className={`px-3 py-2 rounded-md ${linkClasses("/contact")}`}
               >
                 Contact
               </Link>
@@ -171,40 +163,32 @@ const Navbar: React.FC = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="md:hidden dark:bg-neutral-800/90">
-          <div className="grid justify-start px-6 pt-2 pb-3 space-y-2">
+        <div className="md:hidden dark:bg-neutral-800/90 shadow-md">
+          <div className="grid text-center px-6 pt-2 pb-3 space-y-3 uppercase font-semibold text-sm">
             <Link
               href="/"
-              className={`block py-2 rounded-md text-base font-medium ${linkClasses(
-                "/"
-              )}`}
+              className={`block py-2 rounded-md ${linkClasses("/")}`}
               onClick={closeMenu}
             >
               Home
             </Link>
             <Link
               href="/about"
-              className={`block py-2 rounded-md text-base font-medium ${linkClasses(
-                "/about"
-              )}`}
+              className={`block py-2 rounded-md ${linkClasses("/about")}`}
               onClick={closeMenu}
             >
               About
             </Link>
             <Link
               href="/services"
-              className={`block py-2 rounded-md text-base font-medium ${linkClasses(
-                "/services"
-              )}`}
+              className={`block py-2 rounded-md ${linkClasses("/services")}`}
               onClick={closeMenu}
             >
               Services
             </Link>
             <Link
               href="/contact"
-              className={`block py-2 rounded-md text-base font-medium ${linkClasses(
-                "/contact"
-              )}`}
+              className={`block py-2 rounded-md ${linkClasses("/contact")}`}
               onClick={closeMenu}
             >
               Contact
@@ -218,7 +202,9 @@ const Navbar: React.FC = () => {
             >
               FAQ
             </Link>
-            <ThemeToggle />
+            <div className="mx-auto">
+              <ThemeToggle />
+            </div>
           </div>
         </div>
       )}
