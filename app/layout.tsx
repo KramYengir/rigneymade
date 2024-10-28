@@ -5,7 +5,6 @@ import "./globals.css";
 
 import Navbar from "@/components/Navbar";
 import Provider from "@/components/utils/Provider";
-import BackgroundImage from "@/components/BackgroundImage";
 import Footer from "@/components/Footer";
 import { Toaster } from "@/components/ui/toaster";
 
@@ -27,12 +26,11 @@ export default function RootLayout({
   return (
     <html lang="en" className="h-full" suppressHydrationWarning>
       <body
-        className={`${open_Sans.className} relative h-full text-neutral-700 dark:text-neutral-100 bg-white dark:bg-gradient-radial from-stone-900 to-stone-950 tracking-wide`}
+        className={`${open_Sans.className} relative h-full text-neutral-700 dark:text-neutral-100 bg-neutral-50 dark:bg-gradient-radial dark:from-stone-800 dark:to-stone-950 bg-fixed tracking-wide`}
       >
         <Provider>
           <Navbar />
           <main>{children}</main>
-          {/* <BackgroundImage /> */}
           <Footer />
           <Toaster />
         </Provider>

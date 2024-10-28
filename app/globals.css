@@ -38,7 +38,7 @@
 }
 
 .h2-bg {
-  @apply py-12 bg-rm-primary-700/20  dark:bg-neutral-100;
+  @apply py-12 bg-rm-primary-700/40  dark:bg-neutral-100;
 }
 
 @layer base {
