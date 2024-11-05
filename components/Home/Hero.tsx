@@ -4,7 +4,7 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <section>
-      <div className="rm-container grid md:grid-cols-2 gap-8 items-center justify-evenly min-h-[95vh] pt-24">
+      <div className="rm-container grid md:grid-cols-2 gap-8 items-center justify-evenly min-h-[95vh] pt-24 mb-12 md:mb-6">
         {/* heading & call to action */}
         <div className="grid gap-6 mx-auto max-w-prose text-balance">
           <h1
@@ -27,7 +27,7 @@ const Hero = () => {
           </h1>
           <p className="sm:text-lg max-w-[360px] sm:max-w-lg">
             From design to development, we build everything from the ground up.
-            Whether it's a full website or a smart logo, We&apos;ve got you
+            Whether it's a full website or a smart logo, we&apos;ve got you
             covered!
           </p>
           <div className="flex gap-4">
