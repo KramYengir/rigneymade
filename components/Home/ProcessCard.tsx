@@ -24,7 +24,9 @@ const ProcessCard = ({
           {number}
         </p>
       </div>
-      <p className="tracking-widest px-12 py-6 text-balance">{description}</p>
+      <p className="tracking-wide leading-relaxed px-12 py-6 text-balance">
+        {description}
+      </p>
     </div>
   );
 };
