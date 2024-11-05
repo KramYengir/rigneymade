@@ -22,7 +22,7 @@ const PortfolioCard = ({
   link,
 }: PortfolioCardProps) => {
   return (
-    <div className="grid gap-2 min-h-[480px] max-w-80 py-6 px-6 shadow-lg shadow-rm-primary-950/20 dark:shadow-rm-primary-800/40 rounded-lg bg-white/95 dark:bg-inherit dark:bg-gradient-to-b dark:from-neutral-50/20">
+    <div className="grid gap-2 min-h-[480px] max-w-80 py-6 px-6 shadow-xl shadow-gray-400 dark:shadow-rm-primary-800/60 rounded-lg bg-white/95 dark:bg-inherit dark:bg-gradient-to-b dark:from-neutral-50/20">
       <img
         src={imageUrl}
         alt={imageAlt}
