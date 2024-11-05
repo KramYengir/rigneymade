@@ -195,9 +195,7 @@ const Navbar: React.FC = () => {
             </Link>
             <Link
               href="/faq"
-              className={`block py-2 rounded-md text-base font-medium ${linkClasses(
-                "/faq"
-              )}`}
+              className={`block py-2 rounded-md ${linkClasses("/faq")}`}
               onClick={closeMenu}
             >
               FAQ
