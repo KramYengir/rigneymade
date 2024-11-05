@@ -7,19 +7,19 @@ const ProcessSection = () => {
         <ProcessCard
           icon="/images/consult-icon.png"
           title="Consult"
-          description="We start with detailed discussions to understand your vision and goals"
+          description="We begin with an in-depth consultation, listening carefully to your vision, goals, and unique needs to set a strong foundation."
           number="1"
         />
         <ProcessCard
           icon="/images/design-icon.png"
           title="Design"
-          description="We create various concepts, fine-tuned via your feedback"
+          description="With your input, we craft initial concepts, refining them to align with your vision and deliver a design that truly resonates."
           number="2"
         />
         <ProcessCard
           icon="/images/develop-icon.png"
           title="Develop"
-          description="Finally, we build the design into a functional, responsive, and user-friendly product"
+          description="We bring your vision to life, building a responsive website or refined logo that’s both impactful and versatile for your brand’s needs."
           number="3"
         />
       </div>
