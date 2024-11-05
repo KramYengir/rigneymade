@@ -19,12 +19,17 @@ const HomePage = () => {
           <h2 className="h2">What we do</h2>
           <p className="sub-heading">- how we can help -</p>
         </div>
-        <div className="rm-container flex flex-wrap justify-center gap-8 md:gap-x-20 py-16 px-4 md:px-0">
+        <div className="rm-container flex flex-wrap justify-center gap-8 md:gap-x-20 py-16 px-4 md:px-0 sm:mt-20 bg-white dark:bg-transparent shadow-lg dark:shadow-none">
           {/* Website Design Card */}
           <article className="sm:min-w-96 flex flex-col items-start gap-4 p-8 ">
-            <h3 className="uppercase text-2xl md:text-3xl xl:text-5xl font-bold text-rm-primary-700 dark:text-rm-primary-600">
-              Web Development
-            </h3>
+            <div className="relative">
+              <p className="absolute -top-3 uppercase tracking-widest text-xs font-semibold">
+                Our Primary Service
+              </p>
+              <h3 className="uppercase text-2xl md:text-3xl xl:text-5xl font-extrabold text-rm-primary-700 dark:text-rm-primary-500">
+                Web Development
+              </h3>
+            </div>
             <p className="max-w-sm md:max-w-md lg:max-w-lg">
               We craft custom, responsive websites tailored to your business
               needs. By building from scratch, we ensure a unique and
@@ -38,8 +43,8 @@ const HomePage = () => {
           </article>
 
           {/* Logo Design Card */}
-          <article className="sm:min-w-96 flex flex-col items-start gap-4 p-8 ">
-            <h3 className="uppercase text-2xl md:text-3xl xl:text-5xl font-bold text-rm-primary-700 dark:text-rm-primary-600">
+          <article className="sm:min-w-96 flex flex-col items-start gap-4 p-8 bg-gray-100 dark:bg-neutral-800/90 rounded-xl">
+            <h3 className="uppercase text-2xl md:text-3xl xl:text-5xl font-extrabold text-rm-primary-950 dark:text-white">
               Logo Design
             </h3>
             <p className="max-w-sm md:max-w-md lg:max-w-lg ">
@@ -58,15 +63,15 @@ const HomePage = () => {
         <div className="relative mt-24">
           <p className="mx-auto font-medium text-center text-balance text-2xl sm:text-4xl max-w-xs sm:max-w-screen-md">
             Whether it&apos;s a{" "}
-            <span className="font-bold text-rm-primary-700 dark:text-rm-primary-600">
+            <span className="font-bold text-rm-primary-700 dark:text-rm-primary-500">
               Website
             </span>{" "}
             or{" "}
-            <span className="font-bold text-rm-primary-700 dark:text-rm-primary-600">
+            <span className="font-bold text-rm-primary-700 dark:text-rm-primary-500">
               Logo
             </span>
             , the{" "}
-            <span className="italic font-medium text-rm-primary-700 dark:text-rm-primary-600">
+            <span className="italic font-medium text-rm-primary-700 dark:text-rm-primary-500">
               process
             </span>{" "}
             is the same
