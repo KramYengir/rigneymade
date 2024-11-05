@@ -54,7 +54,7 @@ const PricingSection = () => {
       <div className="grid gap-2 justify-center text-center h2-bg">
         <h2 className="h2">Pricing</h2>
         <p className="sub-heading">- what we offer -</p>
-        <p className="service-preface">
+        <p className="section-preface">
           When it comes to paying for a service, we provide two options which we
           feel are flexible enought to suit most customer needs.
         </p>
