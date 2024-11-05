@@ -19,40 +19,42 @@ const HomePage = () => {
           <h2 className="h2">What we do</h2>
           <p className="sub-heading">- how we can help -</p>
         </div>
-        <div className="grid md:flex gap-y-16 justify-evenly py-24">
-          <article className="grid justify-items-center text-center text-balance gap-4 max-w-xs sm:max-w-sm">
-            <h3 className="uppercase text-xl sm:text-2xl xl:text-4xl">
-              <span className="font-bold text-rm-primary-700 dark:text-rm-primary-600">
-                Website
-              </span>{" "}
-              Design
+        <div className="rm-container flex flex-wrap justify-center gap-8 md:gap-x-20 py-16 px-4 md:px-0">
+          {/* Website Design Card */}
+          <article className="sm:min-w-96 flex flex-col items-start gap-4 p-8 ">
+            <h3 className="uppercase text-2xl md:text-3xl xl:text-5xl font-bold text-rm-primary-700 dark:text-rm-primary-600">
+              Web Development
             </h3>
-            <p>
-              Performant & Responsive Websites built from scratch - no builders
-              or templates. Our websites are designed to suit your needs.
+            <p className="max-w-sm md:max-w-md lg:max-w-lg">
+              We craft custom, responsive websites tailored to your business
+              needs. By building from scratch, we ensure a unique and
+              high-performing online presence that engages visitors across all
+              devices, providing an exceptional user experience without the
+              constraints of templates.
             </p>
-            <Link href="/services" className="btn-primary">
+            <Link href="/services" className="btn-secondary mt-auto">
               More Info
             </Link>
           </article>
-          <hr className="w-12 mx-auto md:hidden border-t-2 border-rm-primary-700 dark:border-rm-primary-600" />
-          <article className="grid justify-items-center text-center text-balance gap-4 max-w-xs sm:max-w-sm">
-            <h3 className="uppercase text-xl sm:text-2xl xl:text-4xl ">
-              {" "}
-              <span className="font-bold text-rm-primary-700 dark:text-rm-primary-600">
-                Logo
-              </span>{" "}
-              Design
+
+          {/* Logo Design Card */}
+          <article className="sm:min-w-96 flex flex-col items-start gap-4 p-8 ">
+            <h3 className="uppercase text-2xl md:text-3xl xl:text-5xl font-bold text-rm-primary-700 dark:text-rm-primary-600">
+              Logo Design
             </h3>
-            <p>
-              Bespoke Logo Design provided in various colors, formats and sizes
-              to suit any need - whether it be a business card or a billboard.
+            <p className="max-w-sm md:max-w-md lg:max-w-lg ">
+              Our bespoke logo designs capture the essence of your brand. We
+              create versatile logos that stand out across various platforms,
+              ensuring they are memorable and adaptable for everything from
+              business cards to billboards, making your brand identity cohesive
+              and impactful.
             </p>
-            <Link href="/services" className="btn-primary">
+            <Link href="/services" className="btn-secondary mt-auto">
               More Info
             </Link>
           </article>
         </div>
+
         <div className="relative mt-24">
           <p className="mx-auto font-medium text-center text-balance text-2xl sm:text-4xl max-w-xs sm:max-w-screen-md">
             Whether it&apos;s a{" "}
