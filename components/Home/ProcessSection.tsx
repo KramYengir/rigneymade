@@ -2,8 +2,8 @@ import React from "react";
 import ProcessCard from "./ProcessCard";
 const ProcessSection = () => {
   return (
-    <section className="py-12 sm:py-16 mb-16">
-      <div className="rm-container flex flex-wrap justify-evenly  gap-y-8 py-12">
+    <section className="py-12 mb-16">
+      <div className="rm-container flex flex-wrap justify-evenly gap-y-8">
         <ProcessCard
           icon="/images/consult-icon.png"
           title="Consult"
