@@ -19,7 +19,7 @@ const HomePage = () => {
           <h2 className="h2">What we do</h2>
           <p className="sub-heading">- how we can help -</p>
         </div>
-        <div className="rm-container flex flex-wrap justify-center gap-8 md:gap-x-20 py-16 px-4 md:px-0 sm:mt-20 bg-white dark:bg-transparent shadow-lg dark:shadow-none">
+        <div className="rm-container flex flex-wrap justify-center gap-8 md:gap-x-20 py-16 px-4 md:px-0 sm:mt-20 bg-white dark:bg-transparent  shadow-lg dark:shadow-none">
           {/* Website Design Card */}
           <article className="sm:min-w-96 flex flex-col items-start gap-4 p-8 ">
             <div className="relative">
