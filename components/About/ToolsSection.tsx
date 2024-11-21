@@ -48,7 +48,7 @@ const ToolsSection = () => {
               Development
             </h3>
             <p className="font-light text-balance px-2 sm:px-0">
-              I develop in a <strong>Ubuntu</strong> OS environment, using
+              I develop in an <strong>Ubuntu</strong> OS environment, using
               essential tools like <strong>VS Code</strong>,{" "}
               <strong>Git</strong>, and <strong>GitHub</strong>. After
               finalizing the design, I start coding with frameworks such as{" "}
@@ -67,15 +67,16 @@ const ToolsSection = () => {
               Design
             </h3>
             <p className="font-light text-balance px-2 sm:px-0">
-              When working on logo design, I start with quick mockups in{" "}
-              <strong>Canva</strong> to explore different graphics, color
-              schemes, and font combinations. I also use{" "}
-              <strong>Procreate</strong> for hand-drawn rough concepts. Once I
-              have a strong direction, I refine the design in{" "}
-              <strong>GIMP (GNU Image Manipulation Program)</strong> to create a
-              polished final logo. At this stage, I prepare multiple formats,
-              including a vector version for print and a high-resolution version
-              for digital use.
+              For logo design, I begin with <strong>Procreate</strong> for
+              sketching concepts and use <strong>Canva</strong> to explore font
+              combinations, graphics, and color schemes while easily sharing
+              ideas with clients. Once a concept is chosen, I refine it in{" "}
+              <strong>Inkscape</strong>, producing polished, scalable vector
+              designs ready for any application.
+              <strong>GIMP</strong> is used for various tasks, such as creating
+              mockups, fine-tuning details, and making adjustments, ensuring the
+              final logo is both visually striking and versatile for real-world
+              use.
             </p>
           </li>
         </ul>
