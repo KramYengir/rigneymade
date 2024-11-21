@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 interface PricingCardProps {
@@ -47,6 +48,9 @@ const PricingCard = ({
         <p className="text-4xl md:text-5xl font-extrabold text-rm-primary-700 dark:text-rm-primary-400">
           {price}
         </p>
+        <Link href="/contact" className="btn-secondary mt-8">
+          Get Started!
+        </Link>
       </div>
     );
   else
@@ -78,6 +82,9 @@ const PricingCard = ({
           {price}
           <span className="text-sm font-medium text-neutral-50/80">/month</span>
         </p>
+        <Link href="/contact" className="btn-primary mt-12">
+          Get Started!
+        </Link>
       </div>
     );
 };
