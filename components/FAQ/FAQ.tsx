@@ -41,8 +41,8 @@ const FAQ: React.FC<FAQProps> = ({ items, categories }) => {
             key={index}
             className={`uppercase text-xs sm:text-sm py-2 px-4 rounded-md ${
               selectedCategory === category
-                ? "bg-rm-primary-700 font-bold text-white"
-                : "dark:bg-neutral-800/60 text-gray-700/80 dark:text-white/60 border border-rm-primary-700 hover:bg-gray-200"
+                ? "bg-rm-primary-700 font-bold text-white hover:bg-rm-primary-600 dark:hover:bg-rm-primary-600"
+                : "dark:bg-neutral-800/60 text-gray-700/80 dark:text-white/60 border border-rm-primary-700 hover:bg-gray-200 hover:text-gray-800 dark:hover:bg-neutral-600/60 dark:hover:text-white/90"
             }`}
             onClick={() => handleCategoryChange(category)}
           >
