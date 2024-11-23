@@ -26,16 +26,20 @@ const ServicesSection = () => {
               </h2>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-              voluptates fugit placeat, ea repellendus enim, aspernatur, quasi
-              iure rerum quisquam dolores quia libero ipsum ullam minus tempora
-              beatae? Ea, ullam.
+              At RigneyMade, we specialize in helping small and new businesses
+              take the next step by creating bespoke websites designed to meet
+              their unique needs. Whether you’re looking to establish your
+              online presence or elevate an existing site, we craft fully custom
+              websites that reflect your vision and goals. We avoid templates
+              and builders, ensuring every project is original and tailored to
+              you.
             </p>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Reiciendis fuga delectus officiis, odit repudiandae facilis minus
-              provident et doloribus ipsam eius magnam id nihil aliquid iusto.
-              Reiciendis deleniti ea libero!
+              Our focus is on building high-performing, responsive, and
+              user-friendly websites that leave a lasting impression on your
+              audience. From planning and design to development and deployment,
+              we’re here to make the process seamless, so you can focus on
+              growing your business.
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-6 gap-y-8 items-start">
@@ -47,44 +51,44 @@ const ServicesSection = () => {
                 </span>
               </h4>
               <p className="text-balance font-light md:max-w-[30ch]">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit
-                tenetur incidunt ducimus molestias?
+                Your website will look and perform flawlessly on any device,
+                from desktops to tablets and smartphones.
+              </p>
+            </div>
+            <div className="grid gap-2">
+              <h4 className="uppercase text-lg tracking-wider">
+                High{" "}
+                <span className="font-bold text-rm-primary-700 dark:text-rm-primary-400">
+                  Performance
+                </span>
+              </h4>
+              <p className="text-balance font-light md:max-w-[30ch]">
+                We prioritize speed and reliability, creating websites that load
+                quickly and provide a smooth user experience.
               </p>
             </div>
             <div className="grid gap-2">
               <h4 className="uppercase text-lg tracking-wider">
                 Fully{" "}
                 <span className="font-bold text-rm-primary-700 dark:text-rm-primary-400">
-                  Responsive
+                  Bespoke
                 </span>
               </h4>
               <p className="text-balance font-light md:max-w-[30ch]">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit
-                tenetur incidunt ducimus molestias?
+                Every website is built from scratch, which guarantees a unique
+                design that reflects your brand’s identity and goals
               </p>
             </div>
             <div className="grid gap-2">
               <h4 className="uppercase text-lg tracking-wider">
-                Fully{" "}
+                Future{" "}
                 <span className="font-bold text-rm-primary-700 dark:text-rm-primary-400">
-                  Responsive
+                  Proof
                 </span>
               </h4>
               <p className="text-balance font-light md:max-w-[30ch]">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit
-                tenetur incidunt ducimus molestias?
-              </p>
-            </div>
-            <div className="grid gap-2">
-              <h4 className="uppercase text-lg tracking-wider">
-                Fully{" "}
-                <span className="font-bold text-rm-primary-700 dark:text-rm-primary-400">
-                  Responsive
-                </span>
-              </h4>
-              <p className="text-balance font-light md:max-w-[30ch]">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit
-                tenetur incidunt ducimus molestias?
+                Our websites are built using modern frameworks like React and
+                Next.js, making them easy to expand as your business grows.
               </p>
             </div>
           </div>
