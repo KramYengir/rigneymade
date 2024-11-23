@@ -15,7 +15,11 @@ const AboutUsSection = () => {
 
         <div className="grid gap-2">
           <h2 className="max-w-[26ch] uppercase text-2xl lg:text-4xl font-extrabold px-2 sm:px-0">
-            Crafting Digital Success for Small Businesses
+            <span className="font-medium text-lg sm:text-xl xl:text-2xl">
+              one step at a time{" "}
+            </span>
+            <br />
+            Simplifying Digital Solutions for Your Business
           </h2>
           <p className="max-w-lg  text-balance px-2 sm:px-0">
             I'm Mark, an Irish web developer living in Liverpool, with a genuine
