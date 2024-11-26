@@ -64,14 +64,15 @@ const ContactForm: React.FC = () => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="min-w-[90vw] sm:min-w-[480px] flex flex-col space-y-8 max-w-lg mx-auto p-8 dark:border border-gray-300 rounded-lg shadow-lg shadow-rm-primary-950/40 bg-gray-100/60 dark:bg-neutral-800/60"
+      className="min-w-[90vw] sm:min-w-[380px] flex flex-col space-y-8 max-w-lg p-8 dark:border border-gray-300 rounded-lg shadow-lg shadow-rm-primary-950/40 bg-gray-100/60 dark:bg-neutral-800/60"
     >
       <div>
         <h2 className="uppercase text-2xl font-extrabold text-rm-primary-800 dark:text-gray-200">
           Leave us a message
         </h2>
         <p className="text-sm font-light mt-2">
-          We will do our best to get back to you within 24hrs
+          We aim to respond to all messages within 24 hours, so let’s get
+          started - your next project is just a message away!
         </p>
       </div>
 

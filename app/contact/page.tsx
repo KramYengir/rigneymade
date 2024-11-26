@@ -10,17 +10,19 @@ const ContactPage = () => {
         <h1 className="h1">Contact</h1>
         <p className="h1-sub-heading">- get in touch -</p>
       </div>
-      <div className="rm-container flex flex-wrap justify-center gap-y-12 my-16 sm:my-24">
+      <div className="rm-container flex flex-wrap lg:flex-nowrap justify-start lg:justify-evenly gap-x-8 gap-y-12 my-16 sm:my-24">
         <div className="max-w-screen-sm flex flex-col gap-4 pt-8">
-          <h2 className="uppercase text-4xl font-extrabold opacity-90">
-            Get in touch
+          <h2 className="uppercase text-3xl font-extrabold opacity-90">
+            Let&apos;s talk
           </h2>
           <p className="max-w-prose text-left text-balance font-light leading-6">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus
-            delectus saepe deleniti ullam reprehenderit autem officia qui
-            commodi incidunt eveniet quam modi officiis consequatur, explicabo
-            quo, soluta magni quisquam placeat?
+            We&apos;re here to help bring your ideas to life. Whether you have a
+            question about our services, want to discuss a potential project, or
+            simply need some advice, feel free to get in touch. Fill out the
+            form or use one of the contact options to reach us directly.
           </p>
+
+          {/* contact info */}
           <div className="grid gap-4 max-w-md mt-4">
             <div className="flex gap-6 items-center px-4 py-4 rounded-md bg-neutral-400/10">
               <BsTelephone size={32} />
