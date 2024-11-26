@@ -15,7 +15,7 @@ const faqItems = [
     category: "Web Development",
     question: "How long does it take to build a website?",
     answer:
-      "The timeline depends on the project's complexity, but most websites take 4-6 weeks to complete, including design, development, and revisions.",
+      "The timeline depends on the project's complexity, but most websites generally take 4-6 weeks to complete, including design, development, and revisions.",
   },
   {
     category: "Web Development",
@@ -101,7 +101,7 @@ const faqItems = [
     category: "General",
     question: "Where are you based?",
     answer:
-      "We are based in Liverpool, but we work with clients from all over the world.",
+      "We are based in Liverpool, but we work with clients from the UK & Ireland",
   },
 ];
 
