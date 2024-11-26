@@ -1,5 +1,12 @@
 import Link from "next/link";
 import React from "react";
+import {
+  Check,
+  CheckCheck,
+  CheckCircle,
+  CheckCircleIcon,
+  CheckSquareIcon,
+} from "lucide-react";
 
 interface PricingCardProps {
   headingA: string;
@@ -37,7 +44,9 @@ const PricingCard = ({
         <ul className="grid gap-2 text-left text-sm text-balance font-medium list-inside mb-12">
           {bullets.map((item, index) => (
             <li key={index} className="flex items-center gap-2 font-light">
-              <span className="text-rm-primary-700 text-xl">&#x2714; </span>
+              <span className="text-rm-primary-700 text-xl">
+                <CheckCircle />
+              </span>
               {item}
             </li>
           ))}
@@ -73,7 +82,9 @@ const PricingCard = ({
               key={index}
               className="flex items-center gap-2 text-white font-light"
             >
-              <span className=" text-xl">&#x2714; </span>
+              <span className="text-xl">
+                <CheckCircle />
+              </span>
               {item}
             </li>
           ))}
