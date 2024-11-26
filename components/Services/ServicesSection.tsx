@@ -1,4 +1,5 @@
 import React from "react";
+import ServiceCard from "../Services/ServiceCard";
 
 const ServicesSection = () => {
   return (
@@ -18,9 +19,6 @@ const ServicesSection = () => {
         <div className="flex-auto grid gap-12 max-w-prose">
           <div className="grid gap-2">
             <div className="grid">
-              {/* <p className="uppercase tracking-wider text-xs bg-rm-primary-600/25 px-4 py-1 text-center rounded-t-lg max-w-fit">
-                  Our Primary Service
-                </p> */}
               <h2 className="uppercase text-3xl lg:text-4xl tracking-wider font-light">
                 <span className="font-bold">Web</span> Development
               </h2>
@@ -43,54 +41,31 @@ const ServicesSection = () => {
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-6 gap-y-8 items-start">
-            <div className="grid gap-2">
-              <h4 className="uppercase text-lg tracking-wider">
-                Fully{" "}
-                <span className="font-bold text-rm-primary-700 dark:text-rm-primary-400">
-                  Responsive
-                </span>
-              </h4>
-              <p className="text-balance font-light md:max-w-[30ch]">
-                Your website will look and perform flawlessly on any device,
-                from desktops to tablets and smartphones.
-              </p>
-            </div>
-            <div className="grid gap-2">
-              <h4 className="uppercase text-lg tracking-wider">
-                High{" "}
-                <span className="font-bold text-rm-primary-700 dark:text-rm-primary-400">
-                  Performance
-                </span>
-              </h4>
-              <p className="text-balance font-light md:max-w-[30ch]">
-                We prioritize speed and reliability, creating websites that load
-                quickly and provide a smooth user experience.
-              </p>
-            </div>
-            <div className="grid gap-2">
-              <h4 className="uppercase text-lg tracking-wider">
-                Fully{" "}
-                <span className="font-bold text-rm-primary-700 dark:text-rm-primary-400">
-                  Bespoke
-                </span>
-              </h4>
-              <p className="text-balance font-light md:max-w-[30ch]">
-                Every website is built from scratch, which guarantees a unique
-                design that reflects your brand’s identity and goals
-              </p>
-            </div>
-            <div className="grid gap-2">
-              <h4 className="uppercase text-lg tracking-wider">
-                Future{" "}
-                <span className="font-bold text-rm-primary-700 dark:text-rm-primary-400">
-                  Proof
-                </span>
-              </h4>
-              <p className="text-balance font-light md:max-w-[30ch]">
-                Our websites are built using modern frameworks like React and
-                Next.js, making them easy to expand as your business grows.
-              </p>
-            </div>
+            <ServiceCard
+              headingA="Highly"
+              headingB="Responsive"
+              paragraph="Your website will look and perform flawlessly on any device,
+                from desktops to tablets and smartphones."
+            />
+            <ServiceCard
+              headingA="Peak"
+              headingB="Performance"
+              paragraph=" We prioritize speed and reliability, creating websites that load
+                quickly and provide a smooth user experience."
+            />
+            <ServiceCard
+              headingA="Completely"
+              headingB="Bespoke"
+              paragraph="Your website will be built from scratch, which guarantees a unique
+                design that reflects your brand’s identity and goals."
+            />
+            <ServiceCard
+              headingA="Fully"
+              headingB="Accessible"
+              paragraph="We work hard to
+                ensure that your website is user-friendly and accessible to all users, including those with
+                disabilities."
+            />
           </div>
         </div>
       </div>
@@ -113,67 +88,42 @@ const ServicesSection = () => {
               <span className="font-bold">Logo</span> Design
             </h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-              voluptates fugit placeat, ea repellendus enim, aspernatur, quasi
-              iure rerum quisquam dolores quia libero ipsum ullam minus tempora
-              beatae? Ea, ullam.
+              Your logo is often the first impression of your business, and it
+              should be memorable. At Rigneymade, we design logos that reflect
+              your brand’s identity, capturing its essence in a way that feels
+              authentic and stands out from the crowd.
             </p>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Reiciendis fuga delectus officiis, odit repudiandae facilis minus
-              provident et doloribus ipsam eius magnam id nihil aliquid iusto.
-              Reiciendis deleniti ea libero!
+              We create designs that stick—simple, recognizable, and versatile
+              for both digital and print. Whether you’re starting a new business
+              or refreshing your brand, we’ll craft a logo that tells your story
+              and leaves a lasting impression.
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-6 gap-y-8 items-start">
-            <div className="grid gap-2">
-              <h4 className="uppercase text-lg tracking-wider">
-                Fully{" "}
-                <span className="font-bold text-rm-primary-700 dark:text-rm-primary-400">
-                  Responsive
-                </span>
-              </h4>
-              <p className="text-balance font-light md:max-w-[30ch]">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit
-                tenetur incidunt ducimus molestias?
-              </p>
-            </div>
-            <div className="grid gap-2">
-              <h4 className="uppercase text-lg tracking-wider">
-                Fully{" "}
-                <span className="font-bold text-rm-primary-700 dark:text-rm-primary-400">
-                  Responsive
-                </span>
-              </h4>
-              <p className="text-balance font-light md:max-w-[30ch]">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit
-                tenetur incidunt ducimus molestias?
-              </p>
-            </div>
-            <div className="grid gap-2">
-              <h4 className="uppercase text-lg tracking-wider">
-                Fully{" "}
-                <span className="font-bold text-rm-primary-700 dark:text-rm-primary-400">
-                  Responsive
-                </span>
-              </h4>
-              <p className="text-balance font-light md:max-w-[30ch]">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit
-                tenetur incidunt ducimus molestias?
-              </p>
-            </div>
-            <div className="grid gap-2">
-              <h4 className="uppercase text-lg tracking-wider">
-                Fully{" "}
-                <span className="font-bold text-rm-primary-700 dark:text-rm-primary-400">
-                  Responsive
-                </span>
-              </h4>
-              <p className="text-balance font-light md:max-w-[30ch]">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit
-                tenetur incidunt ducimus molestias?
-              </p>
-            </div>
+            <ServiceCard
+              headingA="Tailored"
+              headingB="Concepts"
+              paragraph="Every logo is unique and created specifically for your business, ensuring it truly reflects your brand’s personality and goals."
+            />
+
+            <ServiceCard
+              headingA="Collaborative"
+              headingB="Process"
+              paragraph="Your feedback is integral to our design process. Together, we refine the logo until it aligns perfectly with your vision."
+            />
+
+            <ServiceCard
+              headingA="Versatile"
+              headingB="Formats"
+              paragraph="Our logos maintain their clarity and detail, whether displayed on a small social media profile or a large storefront sign."
+            />
+
+            <ServiceCard
+              headingA="Simple"
+              headingB="Elegance"
+              paragraph="We believe in clean, minimal designs that are easy to recognize and leave a lasting impression on your audience."
+            />
           </div>
         </div>
       </div>
