@@ -10,6 +10,7 @@ const FAQPage = () => {
         <h1 className="h1">FAQ</h1>
         <p className="h1-sub-heading">- Frequently Asked Questions -</p>
       </div>
+
       <h2 className="uppercase text-3xl sm:text-5xl 2xl:text-6xl font-extrabold tracking-wider text-center mt-24">
         Got a question?
       </h2>
@@ -25,6 +26,20 @@ const FAQPage = () => {
         </Link>
         .
       </p>
+      <div className="flex justify-center mx-auto mt-16">
+        <img
+          src="/images/faq_bubble_SVG.svg"
+          alt="FAQ Bubble"
+          width={480}
+          className="dark:hidden"
+        />
+        <img
+          src="/images/faq_bubble_dark_SVG.svg"
+          alt="FAQ Bubble"
+          width={480}
+          className="hidden dark:block"
+        />
+      </div>
       <FAQ
         items={faqItems}
         categories={["Web Development", "Logo Design", "General"]}
