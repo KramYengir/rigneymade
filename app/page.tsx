@@ -92,7 +92,6 @@ const HomePage = () => {
       <ProcessSection />
       <PortfolioSection />
       <AboutSection />
-      <AnyQuestions />
     </>
   );
 };
