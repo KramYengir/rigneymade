@@ -14,7 +14,7 @@ const ValuesSection = () => {
           values at RigneyMade
         </p>
       </div>
-      <div className="rm-container py-12">
+      <div className="rm-container py-24">
         <h3 className="uppercase text-2xl sm:text-3xl lg:text-4xl 2xl:text-5xl font-extrabold text-center py-12">
           Our Core Values
         </h3>
