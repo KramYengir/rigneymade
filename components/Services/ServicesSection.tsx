@@ -25,16 +25,16 @@ const ServicesSection = () => {
             </div>
             <p>
               At RigneyMade, we specialize in helping small and new businesses
-              take the next step by creating bespoke websites designed to meet
-              their unique needs. Whether you’re looking to establish your
-              online presence or elevate an existing site, we craft fully custom
-              websites that reflect your vision and goals. We avoid templates
-              and builders, ensuring every project is original and tailored to
-              you.
+              take the next step by creating affordable bespoke websites
+              designed to meet their unique needs. Whether you’re looking to
+              establish your online presence or elevate an existing site, we
+              craft fully custom websites that reflect your vision and goals. We
+              avoid templates and builders, ensuring every project is original
+              and tailored to you.
             </p>
             <p>
               Our focus is on building high-performing, responsive, and
-              user-friendly websites that leave a lasting impression on your
+              user-friendly websites that leave a strong impression on your
               audience. From planning and design to development and deployment,
               we’re here to make the process seamless, so you can focus on
               growing your business.
