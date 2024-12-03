@@ -7,13 +7,13 @@ const products = [
     headingB: "Development",
     description: "A standard single or multi page small business website",
     bullets: [
+      "Up to 5 pages",
       "Free Hosting",
       "1 Year of Support",
-      "Domain Managment",
-      "No Contracts",
+      "1 Year Free Custom Domain",
     ],
     startingAt: true,
-    price: "£500",
+    price: "£800",
     monthly: false,
   },
   {
@@ -23,11 +23,11 @@ const products = [
     bullets: [
       "All necessary formats",
       "2 follow-Up Revisions",
-      "+1 Alternative Design",
-      "100% Custom Work",
+      "1 Alternative Design",
+      "Complete Brand Guide",
     ],
     startingAt: false,
-    price: "£350",
+    price: "£400",
     monthly: false,
   },
   {
@@ -36,8 +36,8 @@ const products = [
     description: "Design - Development - Support",
     bullets: [
       "Free Hosting",
-      "24/7 Support",
-      "Unlimited Updates",
+      " Support",
+      "Ongoing  updates",
       "Google Analytics",
       "Free Custom Domain",
       "Logo Included",
