@@ -60,6 +60,12 @@ const faqItems = [
     answer:
       "A CMS is a content management system, which is a software that allows you to manage and publish content on your website. Currently, we use Sanity.io as our CMS.",
   },
+  {
+    category: "Web Development",
+    question: 'What is a "Google Analythics"?',
+    answer:
+      "A CMS is a content management system, which is a software that allows you to manage and publish content on your website. Currently, we use Sanity.io as our CMS.",
+  },
 
   // Logo Design
   {
