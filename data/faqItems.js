@@ -40,7 +40,7 @@ const faqItems = [
     category: "Web Development",
     question: "What is a domain name, and do I need one?",
     answer:
-      'A domain name is your website\'s address on the internet, for example, in www.bobsburgers.com, "bobsburgers" is the domain name. Yes, you need one for your website, and we can help you secure it.',
+      "A domain name is your website's address on the internet, for example, in www.coolwebsite.com, \"coolewebsite\" is the domain name. Technically you don't need a domain name, but it is a good idea to get one as it looks more professional and memorable. But dont't worry, we can help with all of this.",
   },
   {
     category: "Web Development",
@@ -52,7 +52,7 @@ const faqItems = [
     category: "Web Development",
     question: "Can I make changes to my website after it's launched?",
     answer:
-      "A CMS (see below) is included in our service, so you can make changes to your website after it's launched. But this is limited to content changes, and not to the design of the website itself.",
+      "A CMS (see below) is included in our service, if desired, so you can make changes to your website after it's launched. But this is limited to content changes, and not to the design of the website itself. Alternatively, depending on the package, this is something you can leave to us",
   },
   {
     category: "Web Development",
@@ -108,7 +108,7 @@ const faqItems = [
     category: "Logo Design",
     question: 'What is an "alternative design"?',
     answer:
-      "An alternative design is a design which is a variation of the main design. This may mean a change to the layout or style of the design to suit a particular purpose i.e. for stationary, clothes, business cards etc.",
+      "An alternative design is a design which is a variation of the main design. This may mean a change to the layout or style of the design to suit a particular purpose i.e. for stationary, clothes, business cards etc. Every logo comes with one alternative design, but you can request more",
   },
 
   // General
@@ -127,7 +127,7 @@ const faqItems = [
   {
     category: "General",
     question: "What payment methods do you accept?",
-    answer: "We accept bank transfers and online payments via PayPal.",
+    answer: "We accept bank transfers.",
   },
   {
     category: "General",
