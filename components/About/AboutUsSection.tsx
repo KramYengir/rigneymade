@@ -4,12 +4,12 @@ import React from "react";
 const AboutUsSection = () => {
   return (
     <section>
-      <div className="rm-container flex flex-wrap items-center justify-center gap-x-32 gap-y-12 py-36">
+      <div className="rm-container flex flex-wrap items-center justify-center gap-x-32 gap-y-12 py-16 sm:py-32">
         <div className="rounded-full overflow-hidden">
           <img
             src={"/images/profile-img.webp"}
             alt="profile picture of Mark Rigney"
-            className=" h-96 w-auto"
+            className=" h-64 sm:h-96 w-auto"
           />
         </div>
 

@@ -15,12 +15,12 @@ const ToolsSection = () => {
       </div>
 
       {/* list of tools */}
-      <div className="rm-container grid lg:grid-cols-2 items-center justify-center gap-y-12 py-32">
+      <div className="rm-container grid lg:grid-cols-2 items-center justify-center gap-y-12 py-16 sm:py-32">
         <div className="flex flex-col mx-auto ">
           <img
             src={"/images/tool_blob.png"}
             alt="various development software logos"
-            className="h-48 md:h-80 xl:h-[400px] w-auto"
+            className="h-36 sm:h-48 md:h-80 xl:h-[400px] w-auto"
           />
         </div>
         <ul className="grid gap-4 gap-y-12 ">

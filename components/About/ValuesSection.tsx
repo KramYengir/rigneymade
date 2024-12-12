@@ -14,11 +14,11 @@ const ValuesSection = () => {
           values at RigneyMade
         </p>
       </div>
-      <div className="rm-container py-24">
+      <div className="rm-container py-12 sm:py-36">
         <h3 className="uppercase text-2xl sm:text-3xl lg:text-4xl 2xl:text-5xl font-extrabold text-center py-12">
           Our Core Values
         </h3>
-        <div className="flex flex-wrap justify-evenly gap-y-16 gap-x-4 py-20">
+        <div className="flex flex-wrap justify-evenly gap-y-16 gap-x-4 py-12">
           <ValuesCard
             icon={FaShieldAlt}
             title={"Trust"}
