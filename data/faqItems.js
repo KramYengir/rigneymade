@@ -2,9 +2,9 @@ const faqItems = [
   // Web Development
   {
     category: "Web Development",
-    question: "What is the process for building a website?",
+    question: "Do you make eCommerce websites?",
     answer:
-      "We start with a consultation to understand your needs and goals. Next, we move on to design, development, and testing before launching your website. You'll be involved every step of the way.",
+      "We currently don’t offer eCommerce website development. While we prefer creating tailored solutions over using template platforms like Shopify, eCommerce sites are complex. We want to ensure we can deliver exceptional results before offering this service.",
   },
   {
     category: "Web Development",
@@ -20,6 +20,13 @@ const faqItems = [
   },
   {
     category: "Web Development",
+    question:
+      "What’s the difference between a one-page and a multi-page website?",
+    answer:
+      "A one-page website has all content on a single scrollable page, ideal for simple business presentations. Multi-page websites are better for businesses needing more detailed information across multiple sections.",
+  },
+  {
+    category: "Web Development",
     question: 'What does "fully responsive" mean?',
     answer:
       "Fully responsive means your website will automatically adjust and look great on all devices and screen sizes, including desktops, tablets, and smartphones.",
@@ -28,43 +35,37 @@ const faqItems = [
     category: "Web Development",
     question: "Will my website show up on Google?",
     answer:
-      "Yes, we build websites with SEO best practices to ensure they are search-engine-friendly. However, getting it to the top of search results is not something we can promise as it depends on various factors and usually requires time and expertise in SEO optimization.",
+      "Yes, we build websites with SEO best practices to ensure they are search-engine-friendly. However, getting it to the top of search results is not something we can promise, as it depends on various factors and often requires ongoing SEO efforts.",
   },
   {
     category: "Web Development",
     question: "Can you update my existing website?",
     answer:
-      "Generally yes, but this also depends on the technology and design of your website. For example, if you're using platform-specific technologies like WordPress, we would be more comfortable creating a new website from scratch.",
+      "Generally, yes, but this depends on the technology and design of your current website. For example, if you're using platform-specific technologies like WordPress, we may recommend creating a new website from scratch.",
   },
   {
     category: "Web Development",
     question: "What is a domain name, and do I need one?",
     answer:
-      "A domain name is your website's address on the internet, for example, in www.coolwebsite.com, \"coolewebsite\" is the domain name. Technically you don't need a domain name, but it is a good idea to get one as it looks more professional and memorable. But dont't worry, we can help with all of this.",
-  },
-  {
-    category: "Web Development",
-    question: "What platform will my website be built on?",
-    answer:
-      "Currently, we use Next.js to build our websites. This is what we are most comfortable with at the moment, but it could change in the future",
+      "A domain name is your website's address on the internet, like www.coolwebsite.com. While it’s technically optional, having a domain name makes your site look more professional and memorable. Don’t worry—we’ll assist you in choosing and setting one up.",
   },
   {
     category: "Web Development",
     question: "Can I make changes to my website after it's launched?",
     answer:
-      "A CMS (see below) is included in our service, if desired, so you can make changes to your website after it's launched. But this is limited to content changes, and not to the design of the website itself. Alternatively, depending on the package, this is something you can leave to us",
+      "A CMS (see below) is included in our service, if desired, so you can make changes to your website after it's launched. This is limited to content changes, not design changes. Alternatively, depending on your package, we can handle updates for you.",
   },
   {
     category: "Web Development",
     question: "What is a CMS?",
     answer:
-      "A CMS is a content management system, which is a software that allows you to manage and publish content on your website. Currently, we use Sanity.io as our CMS.",
+      "A CMS, or Content Management System, allows you to easily update your website's text and images without needing technical expertise. We use Sanity.io, which is user-friendly and powerful.",
   },
   {
     category: "Web Development",
-    question: 'What is a "Google Analytics"?',
+    question: 'What is "Google Analytics"?',
     answer:
-      "Google Analytics is a free tool that helps you track and analyze website traffic and user behavior.",
+      "Google Analytics is a free tool that tracks website visitors, where they come from, and what they do on your site. This helps you understand your audience and improve your website.",
   },
 
   // Logo Design
@@ -78,13 +79,13 @@ const faqItems = [
     category: "Logo Design",
     question: "How do I know what type of logo is best for my business?",
     answer:
-      "During our consultation, we’ll discuss your brand’s values, target audience, and industry to help create a logo that fits your business perfectly.",
+      "During our consultation, we’ll discuss your brand’s values, target audience, and industry to create a logo that perfectly fits your business.",
   },
   {
     category: "Logo Design",
     question: "How long does it take to design a logo?",
     answer:
-      "Typically, from concept to final design, it could be as short as a couple of weeks to a month, depending on complexity, feedback and revisions.",
+      "Typically, from concept to final design, it takes 2–4 weeks, depending on complexity and revisions.",
   },
   {
     category: "Logo Design",
@@ -114,7 +115,13 @@ const faqItems = [
     category: "Logo Design",
     question: 'What is an "alternative design"?',
     answer:
-      "An alternative design is a design which is a variation of the main design. This may mean a change to the layout or style of the design to suit a particular purpose i.e. for stationary, clothes, business cards etc. Every logo comes with one alternative design, but you can request more",
+      "An alternative design is a variation of the main design, adapted for specific uses, such as stationery, clothing, or business cards. Every logo includes one alternative design, but additional variations can be requested.",
+  },
+  {
+    category: "Logo Design",
+    question: "Can you create business cards or other materials with my logo?",
+    answer:
+      "Yes! We can design business cards, stationery, or other branded materials as an add-on service.",
   },
 
   // General
@@ -133,7 +140,8 @@ const faqItems = [
   {
     category: "General",
     question: "What payment methods do you accept?",
-    answer: "We accept bank transfers.",
+    answer:
+      "We currently accept bank transfers but are open to discussing other methods if needed.",
   },
   {
     category: "General",
