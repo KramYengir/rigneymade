@@ -62,9 +62,9 @@ const faqItems = [
   },
   {
     category: "Web Development",
-    question: 'What is a "Google Analythics"?',
+    question: 'What is a "Google Analytics"?',
     answer:
-      "A CMS is a content management system, which is a software that allows you to manage and publish content on your website. Currently, we use Sanity.io as our CMS.",
+      "Google Analytics is a free tool that helps you track and analyze website traffic and user behavior.",
   },
 
   // Logo Design
