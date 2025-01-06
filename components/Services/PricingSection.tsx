@@ -37,7 +37,7 @@ const products = [
     bullets: [
       "Logo Included",
       "Free Hosting",
-      "24/7 Support",
+      "Tech Support",
       "Ongoing Updates",
       "Google Analytics",
       "Free Custom Domain",
@@ -99,8 +99,9 @@ const PricingSection = () => {
             Plan
           </h3>
           <p className="font-light text-balance max-w-prose">
-            This is a 12-month contract where I essentially work for you,
-            designing, developing and managing your website and/or logo
+            This 6-month contract offers dedicated support, where I work
+            alongside you to design, develop, and manage your website and/or
+            logo, while also assisting with a range of other digital needs.
           </p>
         </div>
         <PricingCard
