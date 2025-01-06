@@ -24,9 +24,9 @@ const HomePage = () => {
           {/* Website Design Card */}
           <article className="sm:min-w-96 flex flex-col items-start gap-4 p-8 ">
             <div className="relative">
-              <p className="absolute -top-3 uppercase tracking-widest text-xs font-semibold">
+              {/* <p className="absolute -top-3 uppercase tracking-widest text-xs font-semibold">
                 Our Primary Service
-              </p>
+              </p> */}
               <h3 className="uppercase text-2xl md:text-3xl xl:text-5xl font-extrabold text-rm-primary-700 dark:text-rm-primary-500">
                 Web Development
               </h3>
