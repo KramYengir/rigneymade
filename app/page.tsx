@@ -7,7 +7,6 @@ import arrowDarkImg from "@/assets/images/rm-arrow-down-dark.webp";
 import ProcessSection from "@/components/Home/ProcessSection";
 import PortfolioSection from "@/components/Home/PortfolioSection";
 import AboutSection from "@/components/Home/AboutSection";
-import AnyQuestions from "@/components/AnyQuestions";
 
 const HomePage = () => {
   return (
