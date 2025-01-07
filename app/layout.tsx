@@ -29,6 +29,24 @@ export const metadata: Metadata = {
   appleWebApp: {
     title: "RigneyMade",
   },
+  robots: "index, follow",
+  openGraph: {
+    type: "website",
+    locale: "en_EN",
+    url: "https://rigneymadev2.netlify.app/",
+    siteName: "RigneyMade",
+    title: "RigneyMade | Digital Designs",
+    description:
+      "RigneyMade crafts bespoke websites and logos tailored to the unique needs of small and new businesses. We provide affordable, personalized solutions to help your business make a lasting impression online and can assist with other digital needs to get you started.",
+    images: [
+      {
+        url: "https://rigneymadev2.netlify.app/og.png",
+        width: 1200,
+        height: 630,
+        alt: "RigneyMade - Digital Designs",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({

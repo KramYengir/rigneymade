@@ -6,7 +6,25 @@ import FAQ from "@/components/FAQ/FAQ";
 export const metadata = {
   title: "FAQ | RigneyMade",
   description:
-    "Have questions about RigneyMade? Visit our FAQ page for answers to common questions about our website and logo design services, pricing, timelines, and more",
+    "Have questions about RigneyMade? Visit our FAQ page for answers to common questions about our website and logo design services, pricing, timelines, and more.",
+  robots: "index, follow",
+  openGraph: {
+    type: "website",
+    locale: "en_EN",
+    url: "https://rigneymadev2.netlify.app/",
+    siteName: "RigneyMade",
+    title: "FAQ | RigneyMade",
+    description:
+      "Have questions about RigneyMade? Visit our FAQ page for answers to common questions about our website and logo design services, pricing, timelines, and more.",
+    images: [
+      {
+        url: "https://rigneymadev2.netlify.app/og.png",
+        width: 1200,
+        height: 630,
+        alt: "RigneyMade - Digital Designs",
+      },
+    ],
+  },
 };
 
 const FAQPage = () => {

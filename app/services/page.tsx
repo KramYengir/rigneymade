@@ -7,6 +7,24 @@ export const metadata = {
   title: "Services | RigneyMade",
   description:
     "Explore RigneyMade’s services: custom website development and logo design tailored to small and new businesses. Affordable plans, professional designs, and digital solutions to elevate your brand.",
+  robots: "index, follow",
+  openGraph: {
+    type: "website",
+    locale: "en_EN",
+    url: "https://rigneymadev2.netlify.app/",
+    siteName: "RigneyMade",
+    title: "Services | RigneyMade",
+    description:
+      "Explore RigneyMade’s services: custom website development and logo design tailored to small and new businesses. Affordable plans, professional designs, and digital solutions to elevate your brand.",
+    images: [
+      {
+        url: "https://rigneymadev2.netlify.app/og.png",
+        width: 1200,
+        height: 630,
+        alt: "RigneyMade - Digital Designs",
+      },
+    ],
+  },
 };
 
 const ServicesPage = () => {

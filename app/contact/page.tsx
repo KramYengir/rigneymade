@@ -7,6 +7,24 @@ export const metadata = {
   title: "Contact | RigneyMade",
   description:
     "Get in touch with RigneyMade! Contact us for inquiries, consultations, or quotes on website and logo design services. We’re here to help your business grow",
+  robots: "index, follow",
+  openGraph: {
+    type: "website",
+    locale: "en_EN",
+    url: "https://rigneymadev2.netlify.app/",
+    siteName: "RigneyMade",
+    title: "Contact | RigneyMade",
+    description:
+      "Get in touch with RigneyMade! Contact us for inquiries, consultations, or quotes on website and logo design services. We’re here to help your business grow.",
+    images: [
+      {
+        url: "https://rigneymadev2.netlify.app/og.png",
+        width: 1200,
+        height: 630,
+        alt: "RigneyMade - Digital Designs",
+      },
+    ],
+  },
 };
 
 const ContactPage = () => {

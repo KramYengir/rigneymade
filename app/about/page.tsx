@@ -7,6 +7,24 @@ export const metadata = {
   title: "About Us | RigneyMade",
   description:
     "Learn about RigneyMade, a Liverpool-based business specializing in bespoke website and logo design for small and new businesses. Discover our values, story, and commitment to helping you succeed.",
+  robots: "index, follow",
+  openGraph: {
+    type: "website",
+    locale: "en_EN",
+    url: "https://rigneymadev2.netlify.app/",
+    siteName: "RigneyMade",
+    title: "About Us | RigneyMade",
+    description:
+      "Learn about RigneyMade, a Liverpool-based business specializing in bespoke website and logo design for small and new businesses. Discover our values, story, and commitment to helping you succeed.",
+    images: [
+      {
+        url: "https://rigneymadev2.netlify.app/og.png",
+        width: 1200,
+        height: 630,
+        alt: "RigneyMade - Digital Designs",
+      },
+    ],
+  },
 };
 
 const AboutPage = () => {
