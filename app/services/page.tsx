@@ -2,7 +2,12 @@ import React from "react";
 import ServicesSection from "@/components/Services/ServicesSection";
 import PricingSection from "@/components/Services/PricingSection";
 import AnyQuestions from "@/components/AnyQuestions";
-import Link from "next/link";
+
+export const metadata = {
+  title: "Services | RigneyMade",
+  description:
+    "Explore RigneyMade’s services: custom website development and logo design tailored to small and new businesses. Affordable plans, professional designs, and digital solutions to elevate your brand.",
+};
 
 const ServicesPage = () => {
   return (

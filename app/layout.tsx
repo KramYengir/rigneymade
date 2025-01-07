@@ -15,7 +15,8 @@ const open_Sans = Open_Sans({
 
 export const metadata: Metadata = {
   title: "RigneyMade | Digital Designs",
-  description: "Professional digital designs for startups and small businesses",
+  description:
+    "RigneyMade crafts bespoke websites and logos tailored to the unique needs of small and new businesses. We provide affordable, personalized solutions to help your business make a lasting impression online and can assist with other digital needs to get you started.",
   icons: {
     icon: [
       { url: "/favicon-96x96.png", type: "image/png", sizes: "96x96" },

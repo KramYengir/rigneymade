@@ -3,6 +3,12 @@ import Link from "next/link";
 import faqItems from "@/data/faqItems";
 import FAQ from "@/components/FAQ/FAQ";
 
+export const metadata = {
+  title: "FAQ | RigneyMade",
+  description:
+    "Have questions about RigneyMade? Visit our FAQ page for answers to common questions about our website and logo design services, pricing, timelines, and more",
+};
+
 const FAQPage = () => {
   return (
     <>

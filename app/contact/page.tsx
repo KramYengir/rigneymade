@@ -3,6 +3,12 @@ import React from "react";
 import { BsTelephone } from "react-icons/bs";
 import { Mail, MapPin } from "lucide-react";
 
+export const metadata = {
+  title: "Contact | RigneyMade",
+  description:
+    "Get in touch with RigneyMade! Contact us for inquiries, consultations, or quotes on website and logo design services. We’re here to help your business grow",
+};
+
 const ContactPage = () => {
   return (
     <>
