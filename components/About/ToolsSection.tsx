@@ -68,15 +68,14 @@ const ToolsSection = () => {
             </h3>
             <p className="font-light text-balance px-2 sm:px-0">
               For logo design, I begin with <strong>Procreate</strong> for
-              sketching concepts and use <strong>Canva</strong> to explore font
-              combinations, graphics, and color schemes to quickly and easily
-              share ideas with clients. Once a concept is chosen, I refine it in{" "}
-              <strong>Inkscape</strong>, producing polished, scalable vector
-              designs ready for any application.
-              <strong> GIMP</strong> is used for various tasks, such as creating
-              mockups, fine-tuning details, and making adjustments, ensuring the
-              final logo is both visually striking and versatile for real-world
-              use.
+              sketching initial ideas. Once the direction is clear, I use{" "}
+              <strong>Inkscape</strong> to refine and develop the design,
+              exploring font combinations, graphics, and color schemes. This
+              process produces polished, scalable vector designs ready for any
+              application. <strong>GIMP</strong> is used for tasks such as
+              creating mockups, fine-tuning details, and making adjustments,
+              ensuring the final logo is both visually striking and versatile
+              for real-world use.
             </p>
           </li>
         </ul>
