@@ -76,7 +76,7 @@ const Navbar: React.FC = () => {
                   className="h-12 w-auto dark:hidden"
                 />
                 <img
-                  src="/images/rm-logo-blue.svg"
+                  src="/images/rm-logo-white.svg"
                   alt="rigneymade logo - a handwritten r m"
                   className="h-12 w-auto hidden dark:block"
                 />
