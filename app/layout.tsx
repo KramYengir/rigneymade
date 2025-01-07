@@ -45,7 +45,7 @@ export default function RootLayout({
         </head>
       </head>
       <body
-        className={`${open_Sans.className} relative h-full text-neutral-700 dark:text-neutral-100 bg-neutral-50 dark:bg-gradient-radial dark:from-stone-800 dark:to-stone-950 bg-fixed tracking-wide`}
+        className={`${open_Sans.className} relative h-full text-neutral-700 dark:text-neutral-100 bg-neutral-50 dark:bg-gradient-radial dark:from-stone-800/90 dark:to-stone-950 bg-fixed tracking-wide`}
       >
         <Provider>
           <Navbar />
