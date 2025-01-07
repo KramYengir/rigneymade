@@ -16,6 +16,18 @@ const open_Sans = Open_Sans({
 export const metadata: Metadata = {
   title: "RigneyMade | Digital Designs",
   description: "Professional digital designs for startups and small businesses",
+  icons: {
+    icon: [
+      { url: "/favicon-96x96.png", type: "image/png", sizes: "96x96" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+    shortcut: "/favicon.ico",
+    apple: { url: "/apple-touch-icon.png", sizes: "180x180" },
+  },
+  manifest: "/site.webmanifest",
+  appleWebApp: {
+    title: "RigneyMade",
+  },
 };
 
 export default function RootLayout({
@@ -26,23 +38,21 @@ export default function RootLayout({
   return (
     <html lang="en" className="h-full" suppressHydrationWarning>
       <head>
-        <head>
-          {/* Google Tag (gtag.js) */}
-          <script
-            async
-            src="https://www.googletagmanager.com/gtag/js?id=G-SWBT6ENQH4"
-          ></script>
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
+        {/* Google Tag (gtag.js) */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-SWBT6ENQH4"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
               gtag('config', 'G-SWBT6ENQH4');
             `,
-            }}
-          />
-        </head>
+          }}
+        />
       </head>
       <body
         className={`${open_Sans.className} relative h-full text-neutral-700 dark:text-neutral-100 bg-neutral-50 dark:bg-gradient-radial dark:from-stone-800/90 dark:to-stone-950 bg-fixed tracking-wide`}
