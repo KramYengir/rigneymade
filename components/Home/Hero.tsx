@@ -42,12 +42,12 @@ const Hero = () => {
         {/* image */}
         <div className="flex-1">
           <img
-            src="/images/hero-img-light.webp"
+            src="/images/hero_fh.webp"
             alt="Hero Image"
             className="z-10 dark:hidden"
           />
           <img
-            src="/images/hero-img-dark.webp"
+            src="/images/hero_fh_light.webp"
             alt="Hero Image"
             className="z-10 hidden dark:block"
           />
