@@ -51,8 +51,8 @@ const HomePage = () => {
               Our bespoke logo designs capture the essence of your brand. We
               create versatile logos that stand out across various platforms,
               ensuring they are memorable and adaptable for everything from
-              business cards to billboards, making your brand identity cohesive
-              and impactful.
+              business cards to billboards, helping to establish a strong and
+              cohesive brand identity.
             </p>
             <Link href="/services" className="btn-secondary mt-auto">
               More Info

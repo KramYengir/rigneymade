@@ -99,9 +99,11 @@ const PricingSection = () => {
             Plan
           </h3>
           <p className="font-light text-balance max-w-prose">
-            This 6-month contract offers dedicated support, where I work
-            alongside you to design, develop, and manage your website and/or
-            logo, while also assisting with a range of other digital needs.
+            This 6-month contract is ideal for those just starting out, offering
+            personalized support as I work alongside you to create, develop, and
+            oversee your website and/or logo. I will also help with a range of
+            other digital requirements to ensure your business gets off to a
+            successful start.
           </p>
         </div>
         <PricingCard

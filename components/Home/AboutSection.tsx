@@ -25,11 +25,11 @@ const AboutSection = () => {
             Web & Logo Design
           </h3>
           <p className="max-w-md text-left px-2 sm:px-0">
-            With a background in Software Development and a genuine passion for
-            helping small businesses thrive, I'm here to simplify the digital
-            side of things for those who may find it overwhelming. From creating
-            engaging websites to designing unique logos, I&apos;m committed to
-            making digital services more accessible, personal, and impactful.
+            With a background in Software Development and a real enthusiasm for
+            helping small businesses succeed, I strive to simplify the digital
+            aspects for those who find it daunting. From developing captivating
+            websites to creating custom logos, I am focused on making digital
+            services more approachable, personal, and impactful.
           </p>
           <Link
             href={"/about"}
