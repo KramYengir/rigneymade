@@ -45,9 +45,21 @@ const faqItems = [
   },
   {
     category: "Web Development",
+    question: 'What is "Google Analytics"?',
+    answer:
+      "Google Analytics is a free tool that tracks website visitors, where they come from, and what they do on your site. This helps you understand your audience and improve your website.",
+  },
+  {
+    category: "Web Development",
     question: "What is a domain name, and do I need one?",
     answer:
       "A domain name is your website's address on the internet, like www.coolwebsite.com. While it’s technically optional, having a domain name makes your site look more professional and memorable. Don’t worry—we’ll assist you in choosing and setting one up.",
+  },
+  {
+    category: "Web Development",
+    question: "What happens after the first year of free custom domain?",
+    answer:
+      "After the first year, the cost of your custom domain will be billed directly to you by the domain registrar. We’ll send you a reminder before the renewal date and you can choose to pay it through us or pay it directly yourself - either way, we'll assist you. The renewal cost is typically around £10-£15 per year, depending on the domain extension (.com, .co.uk, .net, etc.).",
   },
   {
     category: "Web Development",
@@ -63,9 +75,9 @@ const faqItems = [
   },
   {
     category: "Web Development",
-    question: 'What is "Google Analytics"?',
+    question: "Who owns the website once it’s complete?",
     answer:
-      "Google Analytics is a free tool that tracks website visitors, where they come from, and what they do on your site. This helps you understand your audience and improve your website.",
+      "Once the project is complete and all payments have been made, full ownership of the website, including all files, content, and assets, will be transferred to you. You will have full control over your site and can make any changes, updates, or transfers as needed.",
   },
 
   // Logo Design
@@ -136,6 +148,13 @@ const faqItems = [
     question: "Do you require a deposit before starting work?",
     answer:
       "Yes, we typically require a 50% deposit before starting, with the balance due upon project completion and satisfaction.",
+  },
+  {
+    category: "General",
+    question:
+      "Why should I pay monthly instead of purchasing once-off products?",
+    answer:
+      'Paying monthly spreads the cost and gives you continuous support for all your digital needs. You\'ll have ongoing access to technical assistance, updates, and tools like Google Analytics. Essentially, I become your "Tech Guy" for six months, helping you to launch and grow your business.',
   },
   {
     category: "General",
