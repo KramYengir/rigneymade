@@ -11,14 +11,14 @@ export const metadata = {
   openGraph: {
     type: "website",
     locale: "en_EN",
-    url: "https://rigneymadev2.netlify.app/",
+    url: "https://www.rigneymade.com/faq",
     siteName: "RigneyMade",
     title: "FAQ | RigneyMade",
     description:
       "Have questions about RigneyMade? Visit our FAQ page for answers to common questions about our website and logo design services, pricing, timelines, and more.",
     images: [
       {
-        url: "https://rigneymadev2.netlify.app/og.png",
+        url: "https://www.rigneymade.com/og.png",
         width: 1200,
         height: 630,
         alt: "RigneyMade - Digital Designs",
