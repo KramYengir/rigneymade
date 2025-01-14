@@ -51,8 +51,11 @@ const ContactPage = () => {
             <div className="flex gap-6 items-center px-4 py-4 rounded-md bg-neutral-400/10">
               <BsTelephone size={32} />
               <div className="flex flex-col gap-1">
-                <a href="tel:1234567" className="text-balance font-semibold">
-                  +1 (555) 555-5555
+                <a
+                  href="tel:+447551968382"
+                  className="text-balance font-semibold"
+                >
+                  07551 968382
                 </a>
                 <p className="text-sm font-light">
                   Can also be used for WhatsApp Messaging
@@ -63,7 +66,7 @@ const ContactPage = () => {
               <Mail size={32} />
               <div className="flex flex-col gap-1">
                 <a
-                  href="mailto: example@gmail.com"
+                  href="mailto: info@rigneymade.com"
                   className="text-balance font-semibold"
                 >
                   info@rigneymade.com
