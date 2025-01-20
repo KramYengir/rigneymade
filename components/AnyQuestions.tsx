@@ -7,7 +7,20 @@ const AnyQuestions = () => {
       <h2 className="px-2 sm:px-0 text-center text-3xl sm:text-4xl text-rm-primary-700 dark:text-rm-primary-400 font-bold uppercase">
         Have any questions?{" "}
       </h2>
-      <div className="flex flex-wrap justify-center gap-12 text-center my-20">
+
+      <div className="flex flex-wrap justify-evenly gap-12 text-center my-20">
+        <div className="flex flex-wrap justify-center gap-4 max-w-xs text-balance">
+          <p className="sm:text-xl">
+            For more detailed pricing plans, you can download our PDF:
+          </p>
+          <a
+            href="/files/services.pdf"
+            download="RigneyMade_Pricing_Plans.pdf"
+            className="btn-secondary"
+          >
+            Get PDF
+          </a>
+        </div>
         <div className="flex flex-wrap justify-center gap-4 max-w-xs text-balance">
           <p className="sm:text-xl">
             Drop us a message and we'll be glad to help.
@@ -16,6 +29,7 @@ const AnyQuestions = () => {
             Get in touch
           </Link>
         </div>
+
         <div className="flex flex-wrap justify-center gap-4 max-w-xs text-balance">
           <p className="sm:text-xl">
             Check out our <em>Frequently Asked Questions</em> page.
