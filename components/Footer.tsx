@@ -11,27 +11,13 @@ const arimo = Arimo({
 const Footer = () => {
   return (
     <footer className=" bg-gradient-to-t from-rm-primary-950 pt-64 mt-36 text-white">
-      <div className="flex flex-wrap gap-8 gap-y-24 items-start justify-evenly px-12">
-        <div className="flex-1 grid sm:flex items-center justify-center">
-          <img
-            src={"/images/rm-logo-white.svg"}
-            alt="rigneymade logo - a handwritten r m"
-            className="h-auto w-24 md:w-32 mx-auto sm:mx-0"
-          />
-          <div className="grid text-center">
-            <p
-              className={`${arimo.className} text-3xl tracking-wider font-bold`}
-            >
-              RigneyMade
-            </p>
-            <p
-              className={`${arimo.className} uppercase tracking-widest text-sm `}
-            >
-              Digital Designs
-            </p>
-          </div>
-        </div>
-        <div className="flex-1 flex items-start justify-evenly gap-12">
+      <div className="flex flex-wrap gap-x-12 gap-y-24 items-start justify-evenly px-12">
+        <img
+          src={"/images/logo-title-large-white.svg"}
+          alt="rigneymade logo - a handwritten r m"
+          className="h-20 xl:h-24 w-auto mx-auto sm:mx-0"
+        />
+        <div className="flex items-start gap-36 md:gap-64">
           <div className="grid gap-2 md:gap-4">
             <p className="uppercase font-bold">Navigation</p>
             <hr className="border-white/20 dark:border-neutral-900/20" />

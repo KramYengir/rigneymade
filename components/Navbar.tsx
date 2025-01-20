@@ -68,32 +68,20 @@ const Navbar: React.FC = () => {
         <div className="flex items-center justify-between py-6">
           <div className="flex-1 flex justify-between">
             {/* Logo or Brand */}
-            <div>
-              <Link href="/" className="flex-shrink-0 flex items-center gap-2">
-                <img
-                  src="/images/rm-logo-black.svg"
-                  alt="rigneymade logo - a handwritten r m"
-                  className="h-12 w-auto dark:hidden"
-                />
-                <img
-                  src="/images/rm-logo-white.svg"
-                  alt="rigneymade logo - a handwritten r m"
-                  className="h-12 w-auto hidden dark:block"
-                />
-                <div className="grid text-center">
-                  <p
-                    className={`${arimo.className} text-xl tracking-wide font-medium`}
-                  >
-                    RigneyMade
-                  </p>
-                  <p
-                    className={`${arimo.className} uppercase tracking-wider text-xs text-rm-primary-700 dark:text-rm-primary-400`}
-                  >
-                    Digital Designs
-                  </p>
-                </div>
-              </Link>
-            </div>
+
+            <Link href="/" className="flex-shrink-0 flex items-center gap-2">
+              <img
+                src="/images/logo-web-title-dark.svg"
+                alt="rigneymade logo - a handwritten r m"
+                className="h-10 w-auto dark:hidden"
+              />
+              <img
+                src="/images/logo-web-title-light.svg"
+                alt="rigneymade logo - a handwritten r m"
+                className="h-10 w-auto hidden dark:block"
+              />
+            </Link>
+
             {/* Desktop Menu Links */}
             <div className="uppercase font-semibold text-xs hidden md:flex sm:space-x-8 items-center">
               <Link
