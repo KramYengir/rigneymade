@@ -1,5 +1,6 @@
 import React from "react";
 import PricingCard from "./PricingCard";
+import Link from "next/link";
 
 const products = [
   {
@@ -9,7 +10,7 @@ const products = [
     bullets: [
       "Up to 5 pages",
       "Free Hosting",
-      "1 Year of Support",
+      "6 Months of Support",
       "1 Year Free Custom Domain",
     ],
     startingAt: true,
@@ -32,15 +33,15 @@ const products = [
   },
   {
     headingA: "Complete",
-    headingB: "",
+    headingB: "Package",
     description: "Design - Development - Support",
     bullets: [
       "Logo Included",
-      "Free Hosting",
+      "Graphics Assistance",
       "Tech Support",
       "Ongoing Updates",
       "Google Analytics",
-      "Free Custom Domain",
+      "Revisions as needed",
     ],
     startingAt: false,
     price: "£300",
