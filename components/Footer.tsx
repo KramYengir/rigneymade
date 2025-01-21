@@ -13,11 +13,11 @@ const Footer = () => {
     <footer className=" bg-gradient-to-t from-rm-primary-950 pt-64 mt-36 text-white">
       <div className="flex flex-wrap gap-x-12 gap-y-24 items-start justify-evenly px-12">
         <img
-          src={"/images/logo-title-large-white.svg"}
+          src={"/images/logo-title-white-vertical.svg"}
           alt="rigneymade logo - a handwritten r m"
-          className="h-20 xl:h-24 w-auto mx-auto sm:mx-0"
+          className="w-48 xl h-auto mx-auto sm:mx-0"
         />
-        <div className="flex items-start gap-36 md:gap-64">
+        <div className="flex flex-wrap items-start gap-12 sm:gap-36 2xl:gap-64">
           <div className="grid gap-2 md:gap-4">
             <p className="uppercase font-bold">Navigation</p>
             <hr className="border-white/20 dark:border-neutral-900/20" />
@@ -44,16 +44,19 @@ const Footer = () => {
             <hr className="border-white/20 dark:border-neutral-900/20" />
             <ul className="grid gap-2 md:gap-4">
               <li>
-                <p className="capitalize">Website Design</p>
+                <p className="capitalize">Website Design & Development</p>
               </li>
               <li>
-                <p className="capitalize">Website Optimization</p>
+                <p className="capitalize">Website Optimization & SEO</p>
               </li>
               <li>
-                <p className="capitalize">Logo Design</p>
+                <p className="capitalize">Logo Design & Branding</p>
               </li>
               <li>
-                <p className="capitalize">Digital Solutions</p>
+                <p className="capitalize">Custom Digital Solutions</p>
+              </li>
+              <li>
+                <p className="capitalize">Graphic Design Services</p>
               </li>
             </ul>
           </div>
