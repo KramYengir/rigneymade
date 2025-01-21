@@ -52,13 +52,13 @@ const FAQPage = () => {
       </p>
       <div className="flex justify-center mx-auto mt-16">
         <img
-          src="/images/faq_bubble_SVG.svg"
+          src="/images/faq_bubble.webp"
           alt="FAQ Bubble"
           width={480}
           className="dark:hidden"
         />
         <img
-          src="/images/faq_bubble_dark_SVG.svg"
+          src="/images/faq_bubble_dark.webp"
           alt="FAQ Bubble"
           width={480}
           className="hidden dark:block"

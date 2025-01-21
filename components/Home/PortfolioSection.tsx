@@ -23,8 +23,8 @@ const portfolioItems = [
     link: "https://www.rigneyreviews.com",
   },
   {
-    image: "/images/bgcm-logo-black.png",
-    imageDark: "/images/bgcm-logo-white.png",
+    image: "/images/bgcm-logo-black.webp",
+    imageDark: "/images/bgcm-logo-white.webp",
     imageAlt:
       "two business card mockups, one black and one white, showing the logo for brian grimes cabinet making",
     title: "BG Cabinet Making",
