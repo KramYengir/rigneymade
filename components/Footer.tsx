@@ -22,21 +22,37 @@ const Footer = () => {
             <p className="uppercase font-bold">Navigation</p>
             <hr className="border-white/20 dark:border-neutral-900/20" />
             <ul className="grid gap-2 md:gap-4">
-              <Link href="/" className="capitalize hover:font-semibold">
-                home
-              </Link>
-              <Link href="/about" className="capitalize hover:font-semibold">
-                about us
-              </Link>
-              <Link href="/services" className="capitalize hover:font-semibold">
-                services
-              </Link>
-              <Link href="contact" className="capitalize hover:font-semibold">
-                contact us
-              </Link>
-              <Link href="faq" className="capitalize hover:font-semibold">
-                FAQ
-              </Link>
+              <li>
+                <Link href="/" className="capitalize hover:font-semibold">
+                  home
+                </Link>
+              </li>
+              <li>
+                <Link href="/about" className="capitalize hover:font-semibold">
+                  about us
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/services"
+                  className="capitalize hover:font-semibold"
+                >
+                  services
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/contact"
+                  className="capitalize hover:font-semibold"
+                >
+                  contact us
+                </Link>
+              </li>
+              <li>
+                <Link href="/faq" className="capitalize hover:font-semibold">
+                  FAQ
+                </Link>
+              </li>
             </ul>
           </div>
           <div className="grid gap-2 md:gap-4">
