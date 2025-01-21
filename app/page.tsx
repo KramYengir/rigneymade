@@ -37,8 +37,12 @@ const HomePage = () => {
               devices, providing an exceptional user experience without the
               constraints of templates.
             </p>
-            <Link href="/services" className="btn-secondary mt-auto">
-              More Info
+            <Link
+              href="/services"
+              className="btn-secondary mt-auto"
+              aria-label="Learn more about our web development services"
+            >
+              Learn more
             </Link>
           </article>
 
@@ -54,8 +58,12 @@ const HomePage = () => {
               business cards to billboards, helping to establish a strong and
               cohesive brand identity.
             </p>
-            <Link href="/services" className="btn-secondary mt-auto">
-              More Info
+            <Link
+              href="/services"
+              className="btn-primary mt-auto"
+              aria-label="Learn more about our logo design services"
+            >
+              Learn more
             </Link>
           </article>
         </div>
