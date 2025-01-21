@@ -188,7 +188,7 @@ const Navbar: React.FC = () => {
             >
               FAQ
             </Link>
-            <div className="mx-auto">
+            <div className="mx-auto" onClick={closeMenu}>
               <ThemeToggle />
             </div>
           </div>
