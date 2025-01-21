@@ -160,7 +160,7 @@ const faqItems = [
     category: "General",
     question: "What if I want to cancel my monthly plan?",
     answer:
-      "You can cancel within 14 days of starting work for a full refund. After this period, cancellation will still require full payment of the 6-month contract to cover work already completed and ensure the plan's financial viability.",
+      "You can cancel within 14 days of starting work for a full refund. After this period, no refunds are given and there will be no requests for payments for unpaid work.",
   },
   {
     category: "General",
