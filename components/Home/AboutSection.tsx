@@ -9,9 +9,9 @@ const AboutSection = () => {
         <p className="sub-heading">- our story -</p>
       </div>
       <div className="rm-container flex flex-wrap items-center justify-center gap-x-32 gap-y-12 py-32">
-        <div className="rounded-xl overflow-hidden border-8 border-transparent dark:border-rm-primary-50">
+        <div className="rounded-sm overflow-hidden border-8 border-transparent shadow-lg shadow-black/60 dark:border-rm-primary-50">
           <img
-            src={"/images/profile-img.webp"}
+            src={"/images/me-with-camera.webp"}
             alt="profile picture of Mark Rigney"
             className=" h-96 w-auto"
           />
