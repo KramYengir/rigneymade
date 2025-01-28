@@ -10,7 +10,7 @@ const portfolioItems = [
     productType: "Website & Logo",
     description:
       "An informative website for a popular Fish and Chip restaurant in Manchester",
-    link: "https://www.ferryhillfishandchips.com",
+    link: "https://ferryhillfishandchips.com",
   },
   {
     image: "/images/rigney-reviews-portfolio-mockup.webp",
@@ -20,7 +20,7 @@ const portfolioItems = [
     productType: "Website & Logo",
     description:
       "A review blog template, allowing  clients to update blog content independently via a headless CMS",
-    link: "https://www.rigneyreviews.com",
+    link: "https://rigneyreviews.com",
   },
   {
     image: "/images/bgcm-logo-black.webp",
