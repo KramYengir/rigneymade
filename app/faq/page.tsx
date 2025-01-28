@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import faqItems from "@/data/faqItems";
 import FAQ from "@/components/FAQ/FAQ";
+import Head from "next/head";
 
 export const metadata = {
   title: "FAQ | RigneyMade",
@@ -30,6 +31,56 @@ export const metadata = {
 const FAQPage = () => {
   return (
     <>
+      <Head>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "How much does a website cost?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "A single or multi-page website (up to 5 pages) starts from £800.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "How much does a logo cost?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "A logo design costs £400 and includes a brand guide, two revisions, and necessary formats.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Do you make eCommerce websites?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "We currently don’t offer eCommerce website development. While we prefer creating tailored solutions over using template platforms like Shopify, eCommerce sites are complex. We want to ensure we can deliver exceptional results before offering this service.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Do you offer ongoing support?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes, ongoing support is available through our Complete Package, which costs £300 per month for six months.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Where are you based?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "We are based in Liverpool, but we work with clients across the UK and Ireland.",
+                },
+              },
+            ],
+          })}
+        </script>
+      </Head>
       <div className="grid gap-2 justify-center text-center h1-bg">
         <h1 className="h1">FAQ</h1>
         <p className="h1-sub-heading">- Frequently Asked Questions -</p>

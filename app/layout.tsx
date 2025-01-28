@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Head from "next/head";
 
 import { Open_Sans } from "next/font/google";
 import "./globals.css";
@@ -56,7 +57,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full" suppressHydrationWarning>
-      <head>
+      <Head>
         {/* Google Tag (gtag.js) */}
         <script
           async
@@ -72,7 +73,23 @@ export default function RootLayout({
             `,
           }}
         />
-      </head>
+        {/* JSON-LD for Home */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            name: "RigneyMade",
+            url: "https://www.rigneymade.com",
+            description:
+              "RigneyMade creates bespoke websites and logos for small and new businesses, offering affordable, personalized solutions to help your business make a lasting online impression.",
+            publisher: {
+              "@type": "Organization",
+              name: "RigneyMade",
+              logo: "https://www.rigneymade.com/rm-logo-blue-gradient.svg",
+            },
+          })}
+        </script>
+      </Head>
       <body
         className={`${open_Sans.className} relative h-full text-neutral-700 dark:text-neutral-100 bg-neutral-50 dark:bg-gradient-radial dark:from-stone-800/90 dark:to-stone-950 bg-fixed tracking-wide`}
       >

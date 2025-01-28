@@ -2,6 +2,7 @@ import ContactForm from "@/components/Contact/ContactForm";
 import React from "react";
 import { BsTelephone } from "react-icons/bs";
 import { Mail, MapPin } from "lucide-react";
+import Head from "next/head";
 
 export const metadata = {
   title: "Contact | RigneyMade",
@@ -30,6 +31,28 @@ export const metadata = {
 const ContactPage = () => {
   return (
     <>
+      <Head>
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "ContactPoint",
+            telephone: "+447551968382",
+            email: "info@rigneymade.com",
+            contactType: "Customer Service",
+            areaServed: [
+              {
+                "@type": "Country",
+                name: "United Kingdom",
+              },
+              {
+                "@type": "Country",
+                name: "Ireland",
+              },
+            ],
+            availableLanguage: ["English"],
+          })}
+        </script>
+      </Head>
       <div className="grid gap-2 justify-center text-center h1-bg">
         <h1 className="h1">Contact</h1>
         <p className="h1-sub-heading">- get in touch -</p>
