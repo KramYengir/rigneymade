@@ -1,0 +1,8 @@
+# Redirect HTTP to HTTPS
+
+http://rigneymade.com/_ https://www.rigneymade.com/:splat 301!
+http://www.rigneymade.com/_ https://www.rigneymade.com/:splat 301!
+
+# Redirect non-WWW to WWW
+
+https://rigneymade.com/* https://www.rigneymade.com/:splat 301!

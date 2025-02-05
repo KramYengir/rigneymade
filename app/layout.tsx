@@ -15,6 +15,9 @@ const open_Sans = Open_Sans({
 });
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "https://www.rigneymade.com",
+  },
   title: "RigneyMade | Digital Designs",
   description:
     "RigneyMade creates bespoke websites and logos for small and new businesses. We offer affordable, personalized solutions to help your business make a lasting online impression.",
