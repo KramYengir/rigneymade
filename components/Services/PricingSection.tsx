@@ -14,7 +14,7 @@ const products = [
       "1 Year Free Custom Domain",
     ],
     startingAt: true,
-    price: "£800",
+    price: "£600",
     monthly: false,
   },
   {
@@ -22,13 +22,13 @@ const products = [
     headingB: "Design",
     description: "A professional logo to represent your brand",
     bullets: [
-      "All necessary formats",
-      "2 follow-Up Revisions",
+      "All Necessary Formats",
+      "2 Follow-Up Revisions",
       "1 Alternative Design",
       "Complete Brand Guide",
     ],
     startingAt: false,
-    price: "£400",
+    price: "£300",
     monthly: false,
   },
   {
@@ -44,7 +44,7 @@ const products = [
       "Revisions as needed",
     ],
     startingAt: false,
-    price: "£300",
+    price: "£200",
     monthly: true,
   },
 ];
